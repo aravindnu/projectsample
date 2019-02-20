@@ -1,0 +1,2460 @@
+﻿
+
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="en" data-add_this_id='' data-img-load="eager">
+  <head>
+        
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+    
+    <title>
+      Timetriangle eCommerce Web Theme for Watches Online Store - timetriangle
+    </title>
+    
+        <meta property="og:title" content="Timetriangle eCommerce Web Theme for Watches Online Store">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Timetriangle eCommerce web theme for your Watches store online with free store builder of Buildabazaar for 15 days. Download Timetriangle template with mobile friendly &amp; seo features.">
+        
+        <meta property="og:url" content="http://timetriangle.buildabazaar.ooo/">
+        <meta property="og:image" content="https://bab-assets2.babapi.ooo/img/shrd/lookandfeel/63/80/371/52a2dee92fedf_timetriangle.png.999xx.png">
+
+  
+    <meta name="description" content="Timetriangle eCommerce web theme for your Watches store online with free store builder of Buildabazaar for 15 days. Download Timetriangle template with mobile friendly &amp; seo features.">
+  
+  
+  
+    <meta name="Robots" content="noimageindex, nomediaindex, noimageclick">
+  
+  
+    
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+    
+      
+      <link rel="canonical" href="index.html">
+    
+
+    <link rel="shortcut icon" href="https://bab-assets1.babapi.ooo/img/shrd/lookandfeel/63/80/371/c4bb794914448_favicon.png.999x16x16.ico">
+
+    
+    
+    
+        <!--[if (!IE)|(gte IE 8)]><!-->
+<link href="https://bab-assets1.babapi.ooo/packages/bootstrap-datauri.css?1507185537" media="all" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+<!--[if lte IE 7]>
+<link href="https://bab-assets1.babapi.ooo/packages/bootstrap.css?1507185537" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
+        <!--[if (!IE)|(gte IE 8)]><!-->
+          <link href="https://bab-assets1.babapi.ooo/exthemes/63/80/371/theme-6380371-2/stylesheets/site-datauri.css?1514892022" media="all" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+        <!--[if lte IE 7]>
+          <link href="https://bab-assets1.babapi.ooo/exthemes/63/80/371/theme-6380371-2/stylesheets/site-.css?1514892022" media="screen" rel="stylesheet" type="text/css" />
+        <![endif]-->
+      
+
+
+    
+    <!--[if lt IE 10]>
+      <script type="text/javascript" src="/javascripts/respondIE/respondmore.min.js"></script>
+      <link href= 'https://bab-assets1.babapi.ooo/javascripts/respondIE/respond-proxy.html' id="respond-proxy" rel="respond-proxy" />
+      <link href="/javascripts/respondIE/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+      <script src="/javascripts/respondIE/respond.proxy.js"></script>
+    <![endif]-->
+    
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      !window.jQuery && document.write(unescape("%3Cscript src='/javascripts/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">window.bjQuery = window.jQuery</script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+      !window.jQuery.ui && document.write(unescape("%3Cscript src='/javascripts/jquery-ui-1.8.16.custom.min.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script src="https://bab-assets1.babapi.ooo/packages/bootstrap.js?1533881935" type="text/javascript"></script>
+    <script src="https://bab-assets1.babapi.ooo/javascripts/site-javascripts/6380371/global.js?1514274059" type="text/javascript"></script>
+    <script src="https://bab-assets1.babapi.ooo/exthemes/63/80/371/theme-6380371-2/javascripts/site.js?1514892022" type="text/javascript"></script>
+    <script type="text/javascript">
+      !window.JSON && document.write(unescape('%3Cscript src="https://bab-assets1.babapi.ooo/javascripts/json2.js?1429854677" type="text/javascript"%3E%3C/script%3E'));
+    </script>
+
+    
+
+    <script type="text/javascript">
+      bjQuery(document).ready(function($) {
+
+        
+
+        // TRIGGER EVENT TO SHOW ADD TO CART AS POPUP
+          effect_options = null
+          if (effect_options && effect_options.add_to_cart_popup)
+          {
+            $(document).trigger('add_to_cart_popup_effect',effect_options);
+          }
+        // END
+
+        //DYNAMICALLY SET HEADER BY USING USER DETAILS STORED IN COOKIES (HELPS FOR CACHED PAGES).
+        //RAILS CACHE OPTION :LAYOUT => FALSE DOES NOT WORK ON PAGES/TEMPLATES USING CONTENT_FOR TAGS CURRENTLY.
+        var username;
+        if ((username = $.cookies.get("username")) != null)
+        { 
+          username = username.toString().replace(/\+/g," ");
+          var login_msg = "<a class='login-msg'>Hello $$username</a> |  <a href=\"/logout\" class=\"logout\">Logout</a>"
+          $(document).trigger("logged-in",[{"name":username,"email":$.cookies.get("user_email")},login_msg.replace('$$username',username)]);
+        }
+        else
+        {
+          $(document).trigger("logged-out");
+        }
+
+        
+
+        // END
+
+        
+
+        
+          $(document).trigger("show-cart-details",{"total_quantity":false,"show_on_hover":{"item_details":{"delete_confirmation":false,"image":true,"delete_item":true,"quantity":true,"price":true,"title":true},"carousel":{"enabled":false,"options":{"vertical":false,"visible":"","scroll":""}},"item_count_limit":0,"enabled":true},"total_amount":false});
+        
+
+        
+      });
+      
+    </script>
+
+    
+  
+    <!-- START : Google Analytics -->
+    
+
+    
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-2515569-29', 'auto');
+
+        
+          ga('require', 'displayfeatures');
+        
+        ga('send', 'pageview');
+      </script>
+
+    
+  
+  
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "http://timetriangle.buildabazaar.ooo",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "http://timetriangle.buildabazaar.ooo/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  
+
+  
+
+
+  
+  </head>
+
+    
+    
+    <!--[if lt IE 7 ]> <body class='responsive  ie6'> <![endif]-->
+    <!--[if IE 7 ]>    <body class='responsive  ie7'> <![endif]-->
+    <!--[if IE 8 ]>    <body class='responsive  ie8'> <![endif]-->
+    <!--[if IE 9 ]>    <body class='responsive  ie9'> <![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--> <body class='responsive '> <!--<![endif]-->
+      
+  
+      <noscript><span class='notice' style="font-size:2em; display: block;">
+        This site uses Javascript. Your browser either
+        doesn't support Javascript or you have it turned off.
+        To see this page as it is meant to appear please use
+        a Javascript enabled browser.</span></noscript>
+
+      
+      <div id="page" class="f-cod f-relateditems f-internationalshipping f-fb_con f-fb_connect f-accounts_tab f-infibeam_listing f-new_browse_node_urls_in_sdp_and_search f-reviews f-cart_details_in_header f-crazysort f-quick_view f-additional_layouts_for_selection f-layout_change_enabled f-zipcode_serviceability_check_on_pdp f-go_to_top_btn f-carousel_type f-related_items f-one_page_checkout f-custom_default_variant f-enable_checkout_product_image f-conversion_tracking_code_snippet f-google_analytics_remarketing f-universal_google_analytics f-js_feature f-invoice_options f-webstore_feeds_catalog_update_downloads">
+      
+      
+      
+
+      
+      
+  <div id="hd">
+    
+    
+      
+        
+        <div class="tp row_wrapper" style="background:#000;"><div class="hero-unit row visible-md visible-lg">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget header _widget clearfix"><div class="trans">
+<div class="col-lg-2 logo-top"><a href="https://www.buildabazaar.ooo/" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/shrd/html_widget_images/63/80/371/987b05c313f1f_bablogo.png.999xx.png" alt="" width="100%"></a></div>
+<div class="col-lg-9 frm">
+<div class="frm_wrap">
+<div class="container" style="max-width: 100%; width: 100%; padding-left: 0px; padding-right: 0px;">
+<div class="row" style="max-width: 100%; margin-right: 0px; margin-left: 0px;">
+<div class="col-sm-12 col-xs-12">
+<div id="errorSummary" class="col-sm-12" style="display: none;">&nbsp;</div>
+<div class="panel">
+<div class="panel-body">
+<div class="loader" style="display: none;">&nbsp;</div>
+<h4 class="modal-title">Get Started with <span class="">15 days FREE</span> trial</h4>
+<div style="margin-top: 40px; display: inline;"><a href="https://www.buildabazaar.ooo/sites/new?plan=silver&amp;tj" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/html_widget_images/41411/e7d6bae3bde7a_04.png.989xx.png"></a> <a href="https://www.buildabazaar.ooo/sites/new?plan=gold&amp;tj" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/html_widget_images/41411/cbda5c9936f39_05.png.989xx.png"></a> <a href="https://www.buildabazaar.ooo/sites/new?plan=gold_plus&amp;tj" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/html_widget_images/41411/908ef674592d8_06.png.989xx.png"></a> <a href="https://www.buildabazaar.ooo/contactus?category=platinum_quote&amp;tj" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/html_widget_images/41411/b9782e44f4d10_07.png.989xx.png"></a></div>
+<form id="coffeeFormone" class="form-horizontal" style="display: none;" method="post">
+<div class="form-group">
+<div class="col-sm-12 col-xs-12"><input id="store_name" class="form-control" maxlength="50" name="store_name" type="text" placeholder="Your store name"></div>
+</div>
+<div class="form-group">
+<div class="col-sm-12 col-xs-12"><input id="email_address" class="form-control" name="email_address" type="text" placeholder="Email address"></div>
+</div>
+<div class="form-group">
+<div class="col-sm-12 col-xs-12"><input id="phone_number" class="form-control phone_number" name="phone_number" type="text" placeholder="Mobile number"></div>
+</div>
+<div class="form-group">
+<div class="col-sm-12 col-xs-12"><button class="btn btn-red" name="submit" type="submit" value="Sumbit">Create your store</button></div>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+   $.validator.setDefaults({
+    submitHandler: function () {
+     $("#errorSummary").html("");
+     $(".loader").show();
+
+     $.ajax({
+      url: 'https://magentoatdrc.com/foodsp1form/validate_and_save.php',
+      type: 'POST',
+      data: $("#coffeeFormone").serialize(),
+      async:true,
+      success: function (response) {
+       //$("#errorSummary").html(response);
+       $("#coffeeFormone").trigger("reset");
+       window.location.href = 'http://www.buildabazaar.ooo/pricing';
+      },
+      error: function (response, error) {
+       $("#coffeeFormone").trigger("reset");
+       $("#errorSummary").html("Oops!Something went wrong. Try again.");
+      },
+      complete: function () {
+       $(".loader").hide();
+      }
+     });
+    }
+   });
+   $(document).ready(function () {
+    $.validator.addMethod("validate_email", function (value, element) {
+     if (/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(value)) {
+      return true;
+     } else {
+      return false;
+     }
+    }, "Please enter a valid email address.");
+    $("#coffeeFormone").validate({
+     rules: {
+      store_name: {
+       required: false,
+       maxlength: 50
+      },
+      email_address: {
+       required: false,
+       validate_email: true
+      },
+      phone_number: {
+       required: false,
+      }
+     },
+     messages: {
+      store_name: {
+       maxlength: "Only 50 characters are allowed."
+      },
+      email_address: "Please enter a valid email address."
+     },
+     errorElement: "em",
+     errorPlacement: function (error, element) {
+      // Add the `help-block` class to the error element
+      error.addClass("help-block");
+      if (element.prop("type") === "checkbox") {
+       error.insertAfter(element.parent("label"));
+      } else {
+       error.insertAfter(element);
+      }
+     },
+     highlight: function (element, errorClass, validClass) {
+      $(element).parents(".col-sm-5").addClass("has-error").removeClass("has-success");
+     },
+     unhighlight: function (element, errorClass, validClass) {
+      $(element).parents(".col-sm-5").addClass("has-success").removeClass("has-error");
+     }
+    });
+
+    $('.phone_number').on("keypress", function (event) {
+     var inputValue = event.which;
+     if ((inputValue != 46 || $(this).val().indexOf('.') != -1) && inputValue != 0 && inputValue != 8 && (inputValue < 48 || inputValue > 57)) {
+      if (inputValue != 43) {
+       event.preventDefault();
+      }
+     }
+    });
+   });
+   // ]]></script>
+</div>
+<div class="col-lg-1 cls_btn"><button class="close">Close</button></div>
+</div>
+<style><!--
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control {
+ margin: 0px 24px 0px 0px;
+ width: 190px;
+ max-width: 100%;
+ border: 0px none;
+ border-radius: 4px;
+ box-shadow: 0px 0px 0px #FFF;
+ height: 45px;
+ }
+ .tp .trans .form-horizontal .form-group {
+ display: inline-block !important;
+ }
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group {
+ margin-bottom: 0px;
+ }
+ .tp .form-horizontal .form-group {
+ margin-right: -15px;
+ margin-left: -15px;
+ }
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone {
+ text-align: center;
+ }
+ .tp .trans{
+ position: absolute;
+ top: -107px;
+ left: 0px;
+ width:100%;
+ background-color:#202020 !important;
+ }
+ @media only screen and (min-width: 1025px){
+ #hd{margin-top:107px;}
+ }
+ .tp .close{
+ background: transparent url("https://bab-assets1.babapi.ooo/img/shrd/html_widget_images/71/41/068/3b56273a4538c_closebtn.png.999xx.png") no-repeat scroll 0% 0% !important;
+ font-size: 0px;
+ border-radius: 0px;
+ margin:0px auto !important;
+ width: 24px;
+ height: 24px;
+ opacity: 1;
+ min-width: 24px;
+ }
+ .cls_btn{display:flex;text-align:center;}
+ .tp .trans h4{
+ color: #FFF;
+ font-size: 19px;
+ margin-top: 13px;
+ margin-left: 0px;
+ text-align: left;
+ letter-spacing: 2px;
+ font-weight: 500;
+ /* text-transform: uppercase; */
+ display: inline-block;
+ line-height: 62px;
+ }
+ .tp .panel-body a {
+ margin-left: 9px;
+ }
+ .tp .panel-body {
+ padding: 6px;
+ }
+ .tp .frm, .tp .panel{background-color:#202020 !important;margin-bottom:18px;height: 87px;}
+ .tp .logo-top{background:#000000;height:107px;padding-top:21px;}
+ .cls_btn{background:#000000;height:107px;padding-top:41px;}
+ .tp .trans .btn{height:43px;}
+ .tp .trans h4 span{color:#ff3939;font-weight:600;}
+ .tp .frm .btn {
+ background: #F25E04 none repeat scroll 0% 0%;
+ font-size: 14px;
+ font-weight: 600 !important;
+ width: auto;
+ max-width: 100%;
+ float: right;
+ padding: 10px 16px;
+ border-radius: 8px;
+ text-transform: none;
+ text-transform: uppercase;
+ }
+ @media only screen and (min-width: 1600px) and (max-width: 1600px) {
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control {width:265px;}
+ }
+ @media only screen and (min-width: 1366px) and (max-width: 1366px) {
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control {width:206px;}
+ }
+ @media only screen and (min-width: 1920px) and (max-width: 1920px) {
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control {width:343px;}
+ }
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control{font-size:16px;}
+ .tp #email_address-error {
+ display: none !important;
+ }
+ --></style>
+<script type="text/javascript">// <![CDATA[
+ $(document).ready(function(){
+  $("button").click(function(){
+   $("div#hd").css("margin-top", "0px");
+  });
+ });
+ // ]]></script></div>
+                
+              </div>
+            
+          </div>
+        </div>
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget header _widget clearfix"><div class="top_cart"><a class="shopping-cart" href="/shopping-cart"><em class="fa fa-shopping-cart">&nbsp;</em> </a></div>
+<style><!--
+#product-detail-page .write-review {
+    display: block !important;
+    padding: 2px;
+    text-align: center;
+    }
+--></style></div>
+                
+                  <div class="advanced-header-widget header _widget clearfix">
+
+
+
+<div class='logo-top-links'>
+  <div class='row'>
+    <div class='col-md-3 col-sm-3'>
+      <div class='logo'>
+        <a href="index.html" title="home"><img src='https://bab-assets2.babapi.ooo/img/shrd/lookandfeel/63/80/371/52a2dee92fedf_timetriangle.png.999xx.png' alt='timetriangle'></a>
+      </div>
+    </div>
+    <div class='col-md-9 col-sm-9'>
+      <div class='top-links'>
+        <a href="/my-account" class=" my-account">My Account</a>
+      </div>
+      <div class="row search-wrapper">
+        <div class="col-md-3 col-sm-3 "></div>
+        <div class="col-md-9 col-sm-9 search-bar-container">
+          <div class="search-bar">
+            <form action="/search" class="input-group" id="search" method="get">
+              <span class="label">Search</span>
+              <span class="input-group-btn search-category-container">
+                <select class="search-category"></select>
+              </span>
+              <input class="text" id="search-input" name="q" type="text">
+              <span class="input-group-btn search-go-container">
+                <input class="search-go" type="submit" value="GO">
+              </span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='header-menu'>
+  <nav class="navbar navbar-default" role="navigation">
+
+    <div class="navbar-header">
+      
+      <button class="navbar-toggle navbar-toggle-collapse navbar-menu-toggle" data-target="#nav-menu-1332829" data-toggle="collapse" type="button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <div class="navbar-collapse collapse" id="nav-menu-1332829">
+      
+      <ul class="nav navbar-nav">
+        
+        
+  
+  
+    <li><a href="home.html" class=" ">Home</a></li>
+  
+
+  
+  
+    <li><a href="men\search.html" class=" ">Men</a></li>
+  
+
+  
+  
+    <li><a href="women\search.html" class=" ">Women</a></li>
+  
+
+  
+  
+    <li><a href="about_us.html" class=" ">About Us</a></li>
+  
+
+  
+  
+    <li><a href="contact_us.html" class=" ">Contact Us</a></li>
+  
+
+      </ul>
+    </div>
+  </nav>
+</div>
+</div>
+                
+              </div>
+            
+          </div>
+        
+      
+    
+  </div>
+
+
+
+      <div id="bd" class="clearfix">
+        
+        
+
+
+        
+        
+
+  
+
+  
+    
+    
+    
+  <div id="content-slot">
+      
+      <div class=" row">
+        <div class="page-content col-md-12 col-sm-12">
+          
+
+
+<script src="https://bab-assets1.babapi.ooo/packages/search.js?1505802884" type="text/javascript"></script>
+<script>
+  bjQuery(document).ready(function ($) {
+    $(document).trigger('browse-node-search',{browse_node_id: "ho65277817"});
+  });
+</script>
+  
+        </div>
+      </div>
+      
+      
+        
+        <div class="home_banner   row_wrapper" style=""><div class="hero-unit row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="carousel-widget content _widget clearfix">
+
+  <div class="slideshow-wrapper" data-mouseenter="" data-mouseleave="">
+    <div class="slideshow" data-effect="fade" data-navigation="true" data-pager="false" data-tab-details="false" data-timeout="3000">
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title=""><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/shrd/banners/63/80/371/871c4d9d56d0c_banner2.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/shrd/banners/63/80/371/871c4d9d56d0c_banner2.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/shrd/banners/63/80/371/871c4d9d56d0c_banner2.jpg.999x1366x.jpg"></span><noscript><img alt="" title="src="https://bab-assets3.babapi.ooo/img/shrd/banners/63/80/371/871c4d9d56d0c_banner2.jpg.999x1366x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title="" style="display: none"><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/de4e8c7b4c932_banner1.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/de4e8c7b4c932_banner1.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/de4e8c7b4c932_banner1.jpg.999x1366x.jpg"></span><noscript><img alt="" title="src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/de4e8c7b4c932_banner1.jpg.999x1366x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+    </div>
+  </div>
+
+
+</div>
+                
+              </div>
+            
+          </div>
+        </div>
+      
+        
+        <div class="Look_book   row_wrapper" style=""><div class=" row hidden-sm">
+            
+              
+              <div class=" col-md-3 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget content _widget clearfix"><div class="nomob"><a href="women\search.html"><img class="thetrendy thetrendyll" title="11.jpg" src="https://bab-assets1.babapi.ooo/img/shrd/html_widget_images/63/80/371/67bd64b406864_11.jpg.999xx.jpg" alt="11.jpg"></a></div>
+<style><!--
+
+--></style>
+<style><!--
+#bd
+{
+  background: black;
+
+}
+@media(min-width: 768px) and (max-width: 1023px)
+{
+.nomob {
+    display: none;
+}
+}
+--></style></div>
+                
+              </div>
+            
+              
+              <div class=" col-md-6 col-sm-12 col-xs-12">
+                
+                  <div class="carousel-widget content _widget clearfix">
+
+  <div class="slideshow-wrapper" data-mouseenter="" data-mouseleave="">
+    <div class="slideshow" data-effect="fade" data-navigation="false" data-pager="true" data-tab-details="false" data-timeout="3000">
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title=""><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/5608ae5c08a6e_4.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/5608ae5c08a6e_4.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/5608ae5c08a6e_4.jpg.999x500x.jpg"></span><noscript><img alt="" title="src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/5608ae5c08a6e_4.jpg.999x500x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title="" style="display: none"><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/77cf07b23af15_2.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/77cf07b23af15_2.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/77cf07b23af15_2.jpg.999x500x.jpg"></span><noscript><img alt="" title="src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/77cf07b23af15_2.jpg.999x500x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title="" style="display: none"><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/0c73cdd6c5eb0_3.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/0c73cdd6c5eb0_3.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/0c73cdd6c5eb0_3.jpg.999x500x.jpg"></span><noscript><img alt="" title="src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/0c73cdd6c5eb0_3.jpg.999x500x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+    </div>
+  </div>
+
+
+</div>
+                
+              </div>
+            
+              
+              <div class=" col-md-3 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget content _widget clearfix"><div class="nomob"><a href="men\search.html"><img class="thetrendy thetrendyll" title="21.jpg" src="https://bab-assets1.babapi.ooo/img/shrd/html_widget_images/63/80/371/31b5c195034e7_21.jpg.999xx.jpg" alt="21.jpg"></a></div></div>
+                
+              </div>
+            
+          </div>
+        </div>
+      
+        
+        <div class="Look_book    row_wrapper" style=""><div class="hero-unit row visible-sm">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="carousel-widget content _widget clearfix">
+
+  <div class="slideshow-wrapper" data-mouseenter="" data-mouseleave="">
+    <div class="slideshow" data-effect="fade" data-navigation="false" data-pager="true" data-tab-details="false" data-timeout="3000">
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title=""><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/9a5ba26a4ba6e_12.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/9a5ba26a4ba6e_12.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/9a5ba26a4ba6e_12.jpg.999x1366x.jpg"></span><noscript><img alt="" title="src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/9a5ba26a4ba6e_12.jpg.999x1366x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title="" style="display: none"><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/009cff73dd33e_22.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/009cff73dd33e_22.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/009cff73dd33e_22.jpg.999x1366x.jpg"></span><noscript><img alt="" title="src="https://bab-assets2.babapi.ooo/img/shrd/banners/63/80/371/009cff73dd33e_22.jpg.999x1366x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title="" style="display: none"><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/93d4e149ecb24_31.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/93d4e149ecb24_31.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/93d4e149ecb24_31.jpg.999x1366x.jpg"></span><noscript><img alt="" title="src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/93d4e149ecb24_31.jpg.999x1366x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+    </div>
+  </div>
+
+
+</div>
+                
+              </div>
+            
+          </div>
+        </div>
+      
+        
+        <div class="Product_title  row_wrapper" style=""><div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget content _widget clearfix"><div class="title-block text-center">
+<h2>Featured Products</h2>
+<p>Shop from over 99 of the best brands, including adella</p>
+</div>
+<style><!--
+#hd.sticky-header {
+    background: #000 !important;
+}
+--></style></div>
+                
+              </div>
+            
+          </div>
+        </div>
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="smart-product-list-widget horz-list product-list-widget content _widget clearfix">
+  
+    
+  <ul class="list-slider" data-list-options="{&quot;vertical&quot;:false,&quot;scroll&quot;:{&quot;large&quot;:1,&quot;small&quot;:1,&quot;medium&quot;:1},&quot;rtl&quot;:false,&quot;wrap&quot;:null,&quot;pager&quot;:false,&quot;visible&quot;:{&quot;large&quot;:4,&quot;small&quot;:1,&quot;medium&quot;:3},&quot;auto&quot;:0}">
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-out_of_stock">
+  
+      <div class="variant-image">
+      <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-99125072470">
+        <span data-picture="" data-id="" class="responsive" data-alt="JBL On Ear plug, black, s" data-title="JBL On Ear plug, black, s" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x150x150.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x200x200.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></span><noscript><img alt="JBL On Ear plug, black, s" title="JBL" on="" ear="" plug,="" black,="" s="" src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/jbl-ear-plug/p-6380371-87567672857-cat.html?qview=true&amp;t=1550135731#variant_id=6380371-99125072470" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-99125072470" title="JBL On Ear plug, black, s">JBL On Ear plug, black, s</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-final-price">
+           <span class='product-zero-price-text'>Price Not Available </span>
+         </span>
+       </span>
+                    <strong class='out_of_stock'>Out Of Stock</strong>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-99125072470">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-out_of_stock">
+  
+      <div class="variant-image">
+      <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-37565616633">
+        <span data-picture="" data-id="" class="responsive" data-alt="JBL On Ear plug, black, m" data-title="JBL On Ear plug, black, m" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x150x150.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x200x200.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></span><noscript><img alt="JBL On Ear plug, black, m" title="JBL" on="" ear="" plug,="" black,="" m="" src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/jbl-ear-plug/p-6380371-87567672857-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-37565616633" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-37565616633" title="JBL On Ear plug, black, m">JBL On Ear plug, black, m</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>200</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/12.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-12" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>176</span>
+         </span>
+       </span>
+                    <strong class='out_of_stock'>Out Of Stock</strong>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-37565616633">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-96742473743">
+        <span data-picture="" data-id="" class="responsive" data-alt="JBL On Ear plug, blue, s" data-title="JBL On Ear plug, blue, s" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x150x150.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x200x200.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></span><noscript><img alt="JBL On Ear plug, blue, s" title="JBL" on="" ear="" plug,="" blue,="" s="" src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/jbl-ear-plug/p-6380371-87567672857-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-96742473743" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-96742473743" title="JBL On Ear plug, blue, s">JBL On Ear plug, blue, s</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>250</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/10.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-10" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>225</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-96742473743">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-96742473743">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="digital\fastrack-3801220pp01-black-black-digital-watch\p-6380371-48098585477-cat.html#variant_id=6380371-48098585477">
+        <span data-picture="" data-id="" class="responsive" data-alt="Fastrack 3801220Pp01 Black/Black Digital Watch" data-title="Fastrack 3801220Pp01 Black/Black Digital Watch" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch7785583438211zooml.png.df4324c1e6.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch7785583438211zooml.png.df4324c1e6.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch7785583438211zooml.png.df4324c1e6.999x175x175.png"></span><noscript><img alt="Fastrack 3801220Pp01 Black/Black Digital Watch" title="Fastrack" 3801220pp01="" black/black="" digital="" watch="" src="https://bab-assets1.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch7785583438211zooml.png.df4324c1e6.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/digital/fastrack-3801220pp01-black-black-digital-watch/p-6380371-48098585477-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-48098585477" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="digital\fastrack-3801220pp01-black-black-digital-watch\p-6380371-48098585477-cat.html#variant_id=6380371-48098585477" title="Fastrack 3801220Pp01 Black/Black Digital Watch">Fastrack 3801220Pp01 Black/Black Digital &hellip;</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>2,495</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-48098585477">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-48098585477">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="chronograph\lee-cooper-lc-090710-black-golden-chronograph-watch\p-6380371-88204130126-cat.html#variant_id=6380371-88204130126">
+        <span data-picture="" data-id="" class="responsive" data-alt="Lee Cooper Lc-090710 Black/Golden Chronograph Watch" data-title="Lee Cooper Lc-090710 Black/Golden Chronograph Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/1c/2c/leecooperlc090710r1ggbblackgoldenchronographwatch3578806797211zooml.png.448d811c2c.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/1c/2c/leecooperlc090710r1ggbblackgoldenchronographwatch3578806797211zooml.png.448d811c2c.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/1c/2c/leecooperlc090710r1ggbblackgoldenchronographwatch3578806797211zooml.png.448d811c2c.999x175x175.png"></span><noscript><img alt="Lee Cooper Lc-090710 Black/Golden Chronograph Watch" title="Lee" cooper="" lc-090710="" black/golden="" chronograph="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/1c/2c/leecooperlc090710r1ggbblackgoldenchronographwatch3578806797211zooml.png.448d811c2c.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/chronograph/lee-cooper-lc-090710-black-golden-chronograph-watch/p-6380371-88204130126-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-88204130126" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="chronograph\lee-cooper-lc-090710-black-golden-chronograph-watch\p-6380371-88204130126-cat.html#variant_id=6380371-88204130126" title="Lee Cooper Lc-090710 Black/Golden Chronograph Watch">Lee Cooper Lc-090710 Black/Golden &hellip;</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>7,999</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/65.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-65" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>2,800</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-88204130126">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-88204130126">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="digital\casio-black-brown-digital-watch\p-6380371-73857420956-cat.html#variant_id=6380371-73857420956">
+        <span data-picture="" data-id="" class="responsive" data-alt="Casio Black/Brown Digital Watch" data-title="Casio Black/Brown Digital Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch778558343821zooml.png.df4324c1e6.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch778558343821zooml.png.df4324c1e6.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch778558343821zooml.png.df4324c1e6.999x175x175.png"></span><noscript><img alt="Casio Black/Brown Digital Watch" title="Casio" black/brown="" digital="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch778558343821zooml.png.df4324c1e6.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/digital/casio-black-brown-digital-watch/p-6380371-73857420956-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-73857420956" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="digital\casio-black-brown-digital-watch\p-6380371-73857420956-cat.html#variant_id=6380371-73857420956" title="Casio Black/Brown Digital Watch">Casio Black/Brown Digital Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>995</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-73857420956">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-73857420956">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="analog\yepme-white-faux-leather-watch\p-6380371-53848813028-cat.html#variant_id=6380371-53848813028">
+        <span data-picture="" data-id="" class="responsive" data-alt="Yepme White Faux Leather Watch" data-title="Yepme White Faux Leather Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x175x175.png"></span><noscript><img alt="Yepme White Faux Leather Watch" title="Yepme" white="" faux="" leather="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/yepme-white-faux-leather-watch/p-6380371-53848813028-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-53848813028" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\yepme-white-faux-leather-watch\p-6380371-53848813028-cat.html#variant_id=6380371-53848813028" title="Yepme White Faux Leather Watch">Yepme White Faux Leather Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>499</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/20.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-20" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>399</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-53848813028">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-53848813028">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="analog\aveiro-rubber-band-analog-watch\p-6380371-67097850482-cat.html#variant_id=6380371-67097850482">
+        <span data-picture="" data-id="" class="responsive" data-alt="Aveiro Rubber Band Analog Watch" data-title="Aveiro Rubber Band Analog Watch" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/f8/a5/aveirobluerubberanalogwatch5420453134111zooml.png.565092f8a5.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/f8/a5/aveirobluerubberanalogwatch5420453134111zooml.png.565092f8a5.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/f8/a5/aveirobluerubberanalogwatch5420453134111zooml.png.565092f8a5.999x175x175.png"></span><noscript><img alt="Aveiro Rubber Band Analog Watch" title="Aveiro" rubber="" band="" analog="" watch="" src="https://bab-assets1.babapi.ooo/img/othe/6380371/f8/a5/aveirobluerubberanalogwatch5420453134111zooml.png.565092f8a5.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/aveiro-rubber-band-analog-watch/p-6380371-67097850482-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-67097850482" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\aveiro-rubber-band-analog-watch\p-6380371-67097850482-cat.html#variant_id=6380371-67097850482" title="Aveiro Rubber Band Analog Watch">Aveiro Rubber Band Analog Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>825</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/52.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-52" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>399</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-67097850482">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-67097850482">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="chronograph\maxima-attivo-black-black-chronograph-watch\p-6380371-78283086427-cat.html#variant_id=6380371-78283086427">
+        <span data-picture="" data-id="" class="responsive" data-alt="Maxima Attivo Black/Black Chronograph Watch" data-title="Maxima Attivo Black/Black Chronograph Watch" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/a0/1a/maximaattivocollectionblackblackchronographwatch531328895811zooml.png.7eddeca01a.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/a0/1a/maximaattivocollectionblackblackchronographwatch531328895811zooml.png.7eddeca01a.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/a0/1a/maximaattivocollectionblackblackchronographwatch531328895811zooml.png.7eddeca01a.999x175x175.png"></span><noscript><img alt="Maxima Attivo Black/Black Chronograph Watch" title="Maxima" attivo="" black/black="" chronograph="" watch="" src="https://bab-assets1.babapi.ooo/img/othe/6380371/a0/1a/maximaattivocollectionblackblackchronographwatch531328895811zooml.png.7eddeca01a.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/chronograph/maxima-attivo-black-black-chronograph-watch/p-6380371-78283086427-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-78283086427" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="chronograph\maxima-attivo-black-black-chronograph-watch\p-6380371-78283086427-cat.html#variant_id=6380371-78283086427" title="Maxima Attivo Black/Black Chronograph Watch">Maxima Attivo Black/Black Chronograph Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>3,695</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/20.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-20" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>2,956</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-78283086427">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-78283086427">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="chronograph\dkny-ny877867-white-tan-chronograph-watch\p-6380371-77727244572-cat.html#variant_id=6380371-77727244572">
+        <span data-picture="" data-id="" class="responsive" data-alt="DKNY Ny877867 White/Tan Chronograph Watch" data-title="DKNY Ny877867 White/Tan Chronograph Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/7c/5c/dknyny8767whitetanchronographwatch27107929131zooml.png.9992bb7c5c.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/7c/5c/dknyny8767whitetanchronographwatch27107929131zooml.png.9992bb7c5c.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/7c/5c/dknyny8767whitetanchronographwatch27107929131zooml.png.9992bb7c5c.999x175x175.png"></span><noscript><img alt="DKNY Ny877867 White/Tan Chronograph Watch" title="DKNY" ny877867="" white/tan="" chronograph="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/7c/5c/dknyny8767whitetanchronographwatch27107929131zooml.png.9992bb7c5c.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/chronograph/dkny-ny877867-white-tan-chronograph-watch/p-6380371-77727244572-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-77727244572" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="chronograph\dkny-ny877867-white-tan-chronograph-watch\p-6380371-77727244572-cat.html#variant_id=6380371-77727244572" title="DKNY Ny877867 White/Tan Chronograph Watch">DKNY Ny877867 White/Tan Chronograph Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>9,295</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/50.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-50" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>4,648</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-77727244572">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-77727244572">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+  </ul>
+
+</div>
+                
+              </div>
+            
+          </div>
+        
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget content _widget clearfix"><div class="title-block text-center">
+<h2>Featured Products</h2>
+<p>Shop from over 99 of the best brands, including adella</p>
+</div></div>
+                
+              </div>
+            
+          </div>
+        
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="smart-product-list-widget horz-list product-list-widget content _widget clearfix">
+  
+    
+  <ul class="list-slider" data-list-options="{&quot;vertical&quot;:false,&quot;scroll&quot;:{&quot;large&quot;:1,&quot;small&quot;:1,&quot;medium&quot;:1},&quot;rtl&quot;:false,&quot;wrap&quot;:null,&quot;pager&quot;:false,&quot;visible&quot;:{&quot;large&quot;:4,&quot;small&quot;:1,&quot;medium&quot;:3},&quot;auto&quot;:0}">
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-out_of_stock">
+  
+      <div class="variant-image">
+      <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-99125072470">
+        <span data-picture="" data-id="" class="responsive" data-alt="JBL On Ear plug, black, s" data-title="JBL On Ear plug, black, s" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x150x150.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x200x200.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></span><noscript><img alt="JBL On Ear plug, black, s" title="JBL" on="" ear="" plug,="" black,="" s="" src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/jbl-ear-plug/p-6380371-87567672857-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-99125072470" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-99125072470" title="JBL On Ear plug, black, s">JBL On Ear plug, black, s</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-final-price">
+           <span class='product-zero-price-text'>Price Not Available </span>
+         </span>
+       </span>
+                    <strong class='out_of_stock'>Out Of Stock</strong>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-99125072470">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-out_of_stock">
+  
+      <div class="variant-image">
+      <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-37565616633">
+        <span data-picture="" data-id="" class="responsive" data-alt="JBL On Ear plug, black, m" data-title="JBL On Ear plug, black, m" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x150x150.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x200x200.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></span><noscript><img alt="JBL On Ear plug, black, m" title="JBL" on="" ear="" plug,="" black,="" m="" src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/jbl-ear-plug/p-6380371-87567672857-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-37565616633" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-37565616633" title="JBL On Ear plug, black, m">JBL On Ear plug, black, m</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>200</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/12.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-12" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>176</span>
+         </span>
+       </span>
+                    <strong class='out_of_stock'>Out Of Stock</strong>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-37565616633">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-96742473743">
+        <span data-picture="" data-id="" class="responsive" data-alt="JBL On Ear plug, blue, s" data-title="JBL On Ear plug, blue, s" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x150x150.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x200x200.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></span><noscript><img alt="JBL On Ear plug, blue, s" title="JBL" on="" ear="" plug,="" blue,="" s="" src="https://bab-assets2.babapi.ooo/img/no_image.jpg.999x175x175.jpg"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/jbl-ear-plug/p-6380371-87567672857-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-96742473743" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\jbl-ear-plug\p-6380371-87567672857-cat.html#variant_id=6380371-96742473743" title="JBL On Ear plug, blue, s">JBL On Ear plug, blue, s</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>250</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/10.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-10" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>225</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-96742473743">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-96742473743">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="digital\fastrack-3801220pp01-black-black-digital-watch\p-6380371-48098585477-cat.html#variant_id=6380371-48098585477">
+        <span data-picture="" data-id="" class="responsive" data-alt="Fastrack 3801220Pp01 Black/Black Digital Watch" data-title="Fastrack 3801220Pp01 Black/Black Digital Watch" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch7785583438211zooml.png.df4324c1e6.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch7785583438211zooml.png.df4324c1e6.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch7785583438211zooml.png.df4324c1e6.999x175x175.png"></span><noscript><img alt="Fastrack 3801220Pp01 Black/Black Digital Watch" title="Fastrack" 3801220pp01="" black/black="" digital="" watch="" src="https://bab-assets1.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch7785583438211zooml.png.df4324c1e6.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/digital/fastrack-3801220pp01-black-black-digital-watch/p-6380371-48098585477-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-48098585477" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="digital\fastrack-3801220pp01-black-black-digital-watch\p-6380371-48098585477-cat.html#variant_id=6380371-48098585477" title="Fastrack 3801220Pp01 Black/Black Digital Watch">Fastrack 3801220Pp01 Black/Black Digital &hellip;</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>2,495</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-48098585477">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-48098585477">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="chronograph\lee-cooper-lc-090710-black-golden-chronograph-watch\p-6380371-88204130126-cat.html#variant_id=6380371-88204130126">
+        <span data-picture="" data-id="" class="responsive" data-alt="Lee Cooper Lc-090710 Black/Golden Chronograph Watch" data-title="Lee Cooper Lc-090710 Black/Golden Chronograph Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/1c/2c/leecooperlc090710r1ggbblackgoldenchronographwatch3578806797211zooml.png.448d811c2c.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/1c/2c/leecooperlc090710r1ggbblackgoldenchronographwatch3578806797211zooml.png.448d811c2c.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/1c/2c/leecooperlc090710r1ggbblackgoldenchronographwatch3578806797211zooml.png.448d811c2c.999x175x175.png"></span><noscript><img alt="Lee Cooper Lc-090710 Black/Golden Chronograph Watch" title="Lee" cooper="" lc-090710="" black/golden="" chronograph="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/1c/2c/leecooperlc090710r1ggbblackgoldenchronographwatch3578806797211zooml.png.448d811c2c.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/chronograph/lee-cooper-lc-090710-black-golden-chronograph-watch/p-6380371-88204130126-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-88204130126" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="chronograph\lee-cooper-lc-090710-black-golden-chronograph-watch\p-6380371-88204130126-cat.html#variant_id=6380371-88204130126" title="Lee Cooper Lc-090710 Black/Golden Chronograph Watch">Lee Cooper Lc-090710 Black/Golden &hellip;</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>7,999</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/65.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-65" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>2,800</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-88204130126">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-88204130126">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="digital\casio-black-brown-digital-watch\p-6380371-73857420956-cat.html#variant_id=6380371-73857420956">
+        <span data-picture="" data-id="" class="responsive" data-alt="Casio Black/Brown Digital Watch" data-title="Casio Black/Brown Digital Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch778558343821zooml.png.df4324c1e6.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch778558343821zooml.png.df4324c1e6.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch778558343821zooml.png.df4324c1e6.999x175x175.png"></span><noscript><img alt="Casio Black/Brown Digital Watch" title="Casio" black/brown="" digital="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/c1/e6/casioblackbrownresindigitalwatch778558343821zooml.png.df4324c1e6.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/digital/casio-black-brown-digital-watch/p-6380371-73857420956-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-73857420956" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="digital\casio-black-brown-digital-watch\p-6380371-73857420956-cat.html#variant_id=6380371-73857420956" title="Casio Black/Brown Digital Watch">Casio Black/Brown Digital Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>995</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-73857420956">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-73857420956">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="analog\yepme-white-faux-leather-watch\p-6380371-53848813028-cat.html#variant_id=6380371-53848813028">
+        <span data-picture="" data-id="" class="responsive" data-alt="Yepme White Faux Leather Watch" data-title="Yepme White Faux Leather Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x175x175.png"></span><noscript><img alt="Yepme White Faux Leather Watch" title="Yepme" white="" faux="" leather="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/yepme-white-faux-leather-watch/p-6380371-53848813028-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-53848813028" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\yepme-white-faux-leather-watch\p-6380371-53848813028-cat.html#variant_id=6380371-53848813028" title="Yepme White Faux Leather Watch">Yepme White Faux Leather Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>499</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/20.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-20" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>399</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-53848813028">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-53848813028">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="analog\aveiro-rubber-band-analog-watch\p-6380371-67097850482-cat.html#variant_id=6380371-67097850482">
+        <span data-picture="" data-id="" class="responsive" data-alt="Aveiro Rubber Band Analog Watch" data-title="Aveiro Rubber Band Analog Watch" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/f8/a5/aveirobluerubberanalogwatch5420453134111zooml.png.565092f8a5.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/f8/a5/aveirobluerubberanalogwatch5420453134111zooml.png.565092f8a5.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/f8/a5/aveirobluerubberanalogwatch5420453134111zooml.png.565092f8a5.999x175x175.png"></span><noscript><img alt="Aveiro Rubber Band Analog Watch" title="Aveiro" rubber="" band="" analog="" watch="" src="https://bab-assets1.babapi.ooo/img/othe/6380371/f8/a5/aveirobluerubberanalogwatch5420453134111zooml.png.565092f8a5.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/aveiro-rubber-band-analog-watch/p-6380371-67097850482-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-67097850482" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\aveiro-rubber-band-analog-watch\p-6380371-67097850482-cat.html#variant_id=6380371-67097850482" title="Aveiro Rubber Band Analog Watch">Aveiro Rubber Band Analog Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>825</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/52.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-52" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>399</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-67097850482">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-67097850482">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="chronograph\maxima-attivo-black-black-chronograph-watch\p-6380371-78283086427-cat.html#variant_id=6380371-78283086427">
+        <span data-picture="" data-id="" class="responsive" data-alt="Maxima Attivo Black/Black Chronograph Watch" data-title="Maxima Attivo Black/Black Chronograph Watch" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/a0/1a/maximaattivocollectionblackblackchronographwatch531328895811zooml.png.7eddeca01a.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/a0/1a/maximaattivocollectionblackblackchronographwatch531328895811zooml.png.7eddeca01a.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/a0/1a/maximaattivocollectionblackblackchronographwatch531328895811zooml.png.7eddeca01a.999x175x175.png"></span><noscript><img alt="Maxima Attivo Black/Black Chronograph Watch" title="Maxima" attivo="" black/black="" chronograph="" watch="" src="https://bab-assets1.babapi.ooo/img/othe/6380371/a0/1a/maximaattivocollectionblackblackchronographwatch531328895811zooml.png.7eddeca01a.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/chronograph/maxima-attivo-black-black-chronograph-watch/p-6380371-78283086427-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-78283086427" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="chronograph\maxima-attivo-black-black-chronograph-watch\p-6380371-78283086427-cat.html#variant_id=6380371-78283086427" title="Maxima Attivo Black/Black Chronograph Watch">Maxima Attivo Black/Black Chronograph Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>3,695</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/20.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-20" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>2,956</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-78283086427">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-78283086427">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="chronograph\dkny-ny877867-white-tan-chronograph-watch\p-6380371-77727244572-cat.html#variant_id=6380371-77727244572">
+        <span data-picture="" data-id="" class="responsive" data-alt="DKNY Ny877867 White/Tan Chronograph Watch" data-title="DKNY Ny877867 White/Tan Chronograph Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/7c/5c/dknyny8767whitetanchronographwatch27107929131zooml.png.9992bb7c5c.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/7c/5c/dknyny8767whitetanchronographwatch27107929131zooml.png.9992bb7c5c.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/7c/5c/dknyny8767whitetanchronographwatch27107929131zooml.png.9992bb7c5c.999x175x175.png"></span><noscript><img alt="DKNY Ny877867 White/Tan Chronograph Watch" title="DKNY" ny877867="" white/tan="" chronograph="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/7c/5c/dknyny8767whitetanchronographwatch27107929131zooml.png.9992bb7c5c.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/chronograph/dkny-ny877867-white-tan-chronograph-watch/p-6380371-77727244572-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-77727244572" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="chronograph\dkny-ny877867-white-tan-chronograph-watch\p-6380371-77727244572-cat.html#variant_id=6380371-77727244572" title="DKNY Ny877867 White/Tan Chronograph Watch">DKNY Ny877867 White/Tan Chronograph Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>9,295</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/50.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-50" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>4,648</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-77727244572">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-77727244572">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="chronograph\lee-cooper-lc-1306123l-grey-grey-chronograph-watch\p-6380371-91146127499-cat.html#variant_id=6380371-91146127499">
+        <span data-picture="" data-id="" class="responsive" data-alt="Lee Cooper Lc-1306123L-A Grey/Grey Chronograph Watch" data-title="Lee Cooper Lc-1306123L-A Grey/Grey Chronograph Watch" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/othe/6380371/18/61/dknyny8767whitetanchronographwatch27107929131zooml.jpg.9d09f11861.999x150x150.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/othe/6380371/18/61/dknyny8767whitetanchronographwatch27107929131zooml.jpg.9d09f11861.999x200x200.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/othe/6380371/18/61/dknyny8767whitetanchronographwatch27107929131zooml.jpg.9d09f11861.999x175x175.jpg"></span><noscript><img alt="Lee Cooper Lc-1306123L-A Grey/Grey Chronograph Watch" title="Lee" cooper="" lc-1306123l-a="" grey/grey="" chronograph="" watch="" src="https://bab-assets2.babapi.ooo/img/othe/6380371/18/61/dknyny8767whitetanchronographwatch27107929131zooml.jpg.9d09f11861.999x175x175.jpg"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/chronograph/lee-cooper-lc-1306123l-grey-grey-chronograph-watch/p-6380371-91146127499-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-91146127499" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="chronograph\lee-cooper-lc-1306123l-grey-grey-chronograph-watch\p-6380371-91146127499-cat.html#variant_id=6380371-91146127499" title="Lee Cooper Lc-1306123L-A Grey/Grey Chronograph Watch">Lee Cooper Lc-1306123L-A Grey/Grey &hellip;</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>7,999</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/60.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-60" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>3,200</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-91146127499">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-91146127499">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="digital\fluid-dmf-00123-yl01-white-yellow-digital-watch\p-6380371-34548405223-cat.html#variant_id=6380371-34548405223">
+        <span data-picture="" data-id="" class="responsive" data-alt="Fluid Dmf-00123-Yl01 White/Yellow Digital Watch" data-title="Fluid Dmf-00123-Yl01 White/Yellow Digital Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/33/3c/fluiddmf003bl01whitebluedigitalwatch6328877908211zoomlcopy.png.344681333c.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/33/3c/fluiddmf003bl01whitebluedigitalwatch6328877908211zoomlcopy.png.344681333c.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/33/3c/fluiddmf003bl01whitebluedigitalwatch6328877908211zoomlcopy.png.344681333c.999x175x175.png"></span><noscript><img alt="Fluid Dmf-00123-Yl01 White/Yellow Digital Watch" title="Fluid" dmf-00123-yl01="" white/yellow="" digital="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/33/3c/fluiddmf003bl01whitebluedigitalwatch6328877908211zoomlcopy.png.344681333c.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/digital/fluid-dmf-00123-yl01-white-yellow-digital-watch/p-6380371-34548405223-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-34548405223" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="digital\fluid-dmf-00123-yl01-white-yellow-digital-watch\p-6380371-34548405223-cat.html#variant_id=6380371-34548405223" title="Fluid Dmf-00123-Yl01 White/Yellow Digital Watch">Fluid Dmf-00123-Yl01 White/Yellow Digital &hellip;</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>2,999</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/40.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-40" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>1,800</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-34548405223">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-34548405223">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="digital\fluid-dmf-00543-bl01-white-blue-digital-watch\p-6380371-10025545115-cat.html#variant_id=6380371-10025545115">
+        <span data-picture="" data-id="" class="responsive" data-alt="Fluid Dmf-00543-Bl01 White/Blue Digital Watch" data-title="Fluid Dmf-00543-Bl01 White/Blue Digital Watch" data-class=""><span data-media="" data-src="https://bab-assets2.babapi.ooo/img/othe/6380371/13/c4/fluiddmf003yl01whiteyellowdigitalwatch5928287908211zoomlcopy.png.e0f66d13c4.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets2.babapi.ooo/img/othe/6380371/13/c4/fluiddmf003yl01whiteyellowdigitalwatch5928287908211zoomlcopy.png.e0f66d13c4.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets2.babapi.ooo/img/othe/6380371/13/c4/fluiddmf003yl01whiteyellowdigitalwatch5928287908211zoomlcopy.png.e0f66d13c4.999x175x175.png"></span><noscript><img alt="Fluid Dmf-00543-Bl01 White/Blue Digital Watch" title="Fluid" dmf-00543-bl01="" white/blue="" digital="" watch="" src="https://bab-assets2.babapi.ooo/img/othe/6380371/13/c4/fluiddmf003yl01whiteyellowdigitalwatch5928287908211zoomlcopy.png.e0f66d13c4.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/digital/fluid-dmf-00543-bl01-white-blue-digital-watch/p-6380371-10025545115-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-10025545115" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="digital\fluid-dmf-00543-bl01-white-blue-digital-watch\p-6380371-10025545115-cat.html#variant_id=6380371-10025545115" title="Fluid Dmf-00543-Bl01 White/Blue Digital Watch">Fluid Dmf-00543-Bl01 White/Blue Digital Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>2,999</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/40.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-40" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>1,800</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-10025545115">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-10025545115">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="analog\yepme-leatherite-big-analog-watch\p-6380371-31861900806-cat.html#variant_id=6380371-31861900806">
+        <span data-picture="" data-id="" class="responsive" data-alt="Yepme Leatherite big Analog Watch" data-title="Yepme Leatherite big Analog Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x175x175.png"></span><noscript><img alt="Yepme Leatherite big Analog Watch" title="Yepme" leatherite="" big="" analog="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/df/aa/yepmegreyblackleatheriteanalogwatch5333934988111zooml.png.eb929edfaa.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/yepme-leatherite-big-analog-watch/p-6380371-31861900806-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-31861900806" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\yepme-leatherite-big-analog-watch\p-6380371-31861900806-cat.html#variant_id=6380371-31861900806" title="Yepme Leatherite big Analog Watch">Yepme Leatherite big Analog Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>799</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/50.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-50" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>399</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-31861900806">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-31861900806">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="analog\sonata-798412pp01-black-white-analog-watch\p-6380371-50753003906-cat.html#variant_id=6380371-50753003906">
+        <span data-picture="" data-id="" class="responsive" data-alt="Sonata 798412Pp01 Black/White Analog Watch" data-title="Sonata 798412Pp01 Black/White Analog Watch" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/9c/37/sonata7984pp01blackwhiteanalogwatch7302929645111zooml.png.08ca469c37.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/9c/37/sonata7984pp01blackwhiteanalogwatch7302929645111zooml.png.08ca469c37.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/othe/6380371/9c/37/sonata7984pp01blackwhiteanalogwatch7302929645111zooml.png.08ca469c37.999x175x175.png"></span><noscript><img alt="Sonata 798412Pp01 Black/White Analog Watch" title="Sonata" 798412pp01="" black/white="" analog="" watch="" src="https://bab-assets1.babapi.ooo/img/othe/6380371/9c/37/sonata7984pp01blackwhiteanalogwatch7302929645111zooml.png.08ca469c37.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/analog/sonata-798412pp01-black-white-analog-watch/p-6380371-50753003906-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-50753003906" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="analog\sonata-798412pp01-black-white-analog-watch\p-6380371-50753003906-cat.html#variant_id=6380371-50753003906" title="Sonata 798412Pp01 Black/White Analog Watch">Sonata 798412Pp01 Black/White Analog Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>1,299</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/70.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-70" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>390</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-50753003906">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-50753003906">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+        <li class="list-item">
+          <div class="variant-wrapper btn-add_to_cart">
+  
+      <div class="variant-image">
+      <a href="chronograph\yepme-grey-silver-metal-watch\p-6380371-9644498916-cat.html#variant_id=6380371-9644498916">
+        <span data-picture="" data-id="" class="responsive" data-alt="Yepme Grey/Silver Metal Watch" data-title="Yepme Grey/Silver Metal Watch" data-class=""><span data-media="" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/4c/9f/yepmegreysilvermetalchronographwatch6131366768211zooml.png.3dff944c9f.999x150x150.png"></span><span data-media="(min-width:768px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/4c/9f/yepmegreysilvermetalchronographwatch6131366768211zooml.png.3dff944c9f.999x200x200.png"></span><span data-media="(min-width:992px)" data-src="https://bab-assets3.babapi.ooo/img/othe/6380371/4c/9f/yepmegreysilvermetalchronographwatch6131366768211zooml.png.3dff944c9f.999x175x175.png"></span><noscript><img alt="Yepme Grey/Silver Metal Watch" title="Yepme" grey/silver="" metal="" watch="" src="https://bab-assets3.babapi.ooo/img/othe/6380371/4c/9f/yepmegreysilvermetalchronographwatch6131366768211zooml.png.3dff944c9f.999x175x175.png"></noscript></span>
+      </a>
+      </div>
+      <div class="variant-desc">
+    <a href="/chronograph/yepme-grey-silver-metal-watch/p-6380371-9644498916-cat.html?qview=true&amp;t=1550135732#variant_id=6380371-9644498916" class="quick_view" rel="nofollow">Quick View</a>                
+        <span class="variant-title"> <a href="chronograph\yepme-grey-silver-metal-watch\p-6380371-9644498916-cat.html#variant_id=6380371-9644498916" title="Yepme Grey/Silver Metal Watch">Yepme Grey/Silver Metal Watch</a></span>
+        <span class="contributors">
+    
+        <span class="ctbr-name"><a></a></span>
+      </span>        <span class="price">
+          <span class="variant-list-price">
+            <span class='m-w'><span class='m-c c-inr'>Rs.</span>899</span>
+          </span>
+      
+            <span class='discount-badge'><span class='discount-badge-img' style="background-image:url('https://bab-assets3.babapi.ooo/images/badges/discounts/50.gif');"></span></span>
+            <div class="discount-badge-new discount-badge-50" style="display:none"></div>
+        
+          <span class="variant-final-price">
+           <span class='m-w'><span class='m-c c-inr'>Rs.</span>449</span>
+         </span>
+       </span>
+                    <span class="add-to-cart add_to_cart"><form action="/my_save_list/add_to_shopping_cart" method="post">
+              <input id="variant_id" name="variant_id" type="hidden" value="6380371-9644498916">
+              <input id="variant_quantity" type="hidden" name="variant[quantity]" value="1">
+              <input class="button" name="commit" type="submit" value="Add to Cart">
+              </form></span>        &nbsp;&nbsp;<span class="wish-list"><form action="/my_save_list/add_to_wish_list" class="wishlist-form" method="post">
+              <input type="hidden" name="variant_id" value="6380371-9644498916">
+              <input type="submit" value="Add To Wishlist" name="commit" class="button">
+            </form></span>                                          </div>
+</div>
+
+
+        </li>
+    
+  </ul>
+
+</div>
+                
+              </div>
+            
+          </div>
+        
+      
+        
+        <div class="Look_book  row_wrapper" style=""><div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="carousel-widget content _widget clearfix">
+
+  <div class="slideshow-wrapper" data-mouseenter="" data-mouseleave="">
+    <div class="slideshow" data-effect="fade" data-navigation="false" data-pager="true" data-tab-details="false" data-timeout="3000">
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title=""><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/b30b82998ae3b_6.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/b30b82998ae3b_6.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/b30b82998ae3b_6.jpg.999x1000x.jpg"></span><noscript><img alt="" title="src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/b30b82998ae3b_6.jpg.999x1000x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+
+        
+
+        <div class="slideshow-item" data-tab-desc="" data-tab-title="" style="display: none"><div class="banner-widget content _widget clearfix">
+
+  <a class="banner-image" href="search.html?q=" title="" target=""><span data-picture="" data-id="" class="responsive" data-alt="" data-title="" data-class=""><span data-media="" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/928236f71a5be_5.jpg.999x320x.jpg"></span><span data-media="(min-width:768px)" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/928236f71a5be_5.jpg.999x600x.jpg"></span><span data-media="(min-width:992px)" data-src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/928236f71a5be_5.jpg.999x1000x.jpg"></span><noscript><img alt="" title="src="https://bab-assets1.babapi.ooo/img/shrd/banners/63/80/371/928236f71a5be_5.jpg.999x1000x.jpg""></noscript></span></a>
+
+  
+  
+
+
+</div></div>
+      
+    </div>
+  </div>
+
+
+</div>
+                
+              </div>
+            
+          </div>
+        </div>
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget content _widget clearfix"><p style="margin: 0;"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
+<p><link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,700"> <link rel="stylesheet" type="text/css" href="/static/forms/client/css/1404371006-formview_st_ltr.css"></p>
+<p><link rel="stylesheet" type="text/css" href="/static/forms/client/css/3145455273-mobile_formview_st_ltr.css"></p>
+<p><link rel="alternate" type="text/xml+oembed" href="https://docs.google.com/forms/d/1UhuW9yxlwqL4r7u1NkW1r8K9wKp1v1dAqPBmVXkjmmw/oembed?url=https://docs.google.com/forms/d/1UhuW9yxlwqL4r7u1NkW1r8K9wKp1v1dAqPBmVXkjmmw/viewform&amp;format=xml"></p>
+<style><!--
+.small-txt {
+font-weight:normal;
+font-size:14px;
+letter-spacing:0.7px;
+color: #a3a3a3;
+display:block;
+}
+.ss-q-title h1 {
+    color: #fff;
+    display: block;
+    font-family: "Oswald",sans-serif;
+    font-size: 30px !important;
+    font-weight: bold;
+    line-height: 38px;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.sec1 {background: transparent; border: none;}
+.subs {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #e6e6e6;
+    height:116px;
+}
+#ft .sign_news {
+    overflow: unset;
+}
+#valid_email {font-size:12px; position:absolute; bottom:10px; right:15px;}
+.ss-form-question {width:100%;}
+.ss-item.ss-navigate {
+    float: left;
+    width: 12%;
+}
+.ss-item table {border:none; margin:0;}
+.ss-item table td {padding:0;}
+.ss-form-container, .ss-resp-card {
+
+}
+#ss-submit{
+border: none !important;
+border-radius: 0px;
+vertical-align: middle;
+text-transform: uppercase;
+font-family: "Oswald",sans-serif;
+background-color: transparent;
+color: inherit;
+font-size: 14px;
+color:#fff;
+width:100%;
+float: left;
+}
+
+.ss-footer, .ss-response-footer {
+  background-color: rgb(255,255,255);
+}
+
+.ss-grid-row-odd {
+  background-color: rgb(242,242,242);
+}
+
+.ss-form-container, .ss-resp-card {
+  border-color: rgb(212,212,212);
+}
+
+.ss-form-title {
+  text-align: left;
+}
+
+.ss-form-title[dir="rtl"] {
+  text-align: right;
+}
+
+.ss-form-desc {
+  text-align: left;
+}
+
+.ss-form-desc[dir="rtl"] {
+  text-align: right;
+}
+
+.ss-header-image-container {
+  height: 0;
+}
+
+.ss-item {
+  font-size: 1.080rem;
+}
+
+.ss-choices {
+  font-size: 1.000rem;
+}
+
+.ss-record-username-message {
+  font-family: "Roboto";
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-form-title {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-confirmation {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 2.460rem;
+  font-style: normal;
+}
+
+.ss-page-title, .ss-section-title {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-form-desc, .ss-page-description, .ss-section-description {
+  font-family: "Roboto";
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-resp-content {
+  font-family: "Roboto";
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.080rem;
+  font-style: normal;
+}
+
+.ss-q-title {
+height: 20px;
+line-height: 30px;
+color: #333;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 17px;
+display:table;
+width:100%;
+text-align:center;
+}
+
+.ss-embeddable-object-container .ss-q-title {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 700;
+  font-size: 1.845rem;
+  font-style: normal;
+}
+
+.ss-q-help, .ss-q-time-hint {
+  font-family: "Roboto";
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.error-message, .required-message, .ss-required-asterisk {
+  font-family: "Roboto";
+  color: rgb(196,59,29);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-send-email-receipt {
+  font-family: "Roboto";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.ss-password-warning {
+  font-family: "Arial";
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: italic;
+}
+
+.disclaimer {
+  font-family: "Arial";
+  color: rgb(119,119,119);
+  font-weight: 400;
+  font-size: 0.850rem;
+  font-style: normal;
+}
+
+.ss-footer-content {
+  font-family: "Arial";
+  color: rgb(80,80,80);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+.progress-label {
+  font-family: "Roboto";
+  color: rgb(140,140,140);
+  font-weight: 400;
+  font-size: 1.000rem;
+  font-style: normal;
+}
+
+
+
+input[type='text'], input:not([type]), textarea {
+  font-size: 1.000rem;
+}
+
+.error, .required, .errorbox-bad {
+  border-color: rgb(196,59,29);
+}
+
+.jfk-progressBar-nonBlocking .progress-bar-thumb {
+  background-color: rgb(140,140,140);
+}
+
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_small_dark.png');
+  background-size: 108px 21px;
+  width: 108px;
+  height: 21px;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 2) {
+.ss-logo-image {
+  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_small_dark_2x.png');
+}
+}
+
+
+.subscribe {
+  border: 1px dotted #cacaca;
+  padding: 30px 15px;
+  background: url(https://bab-assets1.babapi.ooo/img/html_widget_images/0135570/ffd64d7c2f063_contactsback.png.999xx.png) no-repeat -25px -10px #fff;
+  margin: 25px 0;
+}
+.subscribe h3 {
+  text-align: right;
+  color: #3f3f3f;
+  line-height: 37px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.email-bar {
+float: left;
+margin: 40px 0 0 28% !important;
+display: block;
+padding-left: 25px !important;
+font-size: 14px !important;
+border-width: 0 !important;
+background: #171717;
+color: #787878 !important;
+height: 40px !important;
+width: 30% !important;
+border-radius: 20px 0 0 20px !important;
+}
+.input-group {
+  width: 100%;
+}
+.email-bar input.text {
+  background: none repeat scroll 0px 0px transparent;
+  border: medium none;
+  color: #fff !important;
+
+}
+.sbmit-btn .fa {
+  color: #6e6e6e;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: left;
+  float: left;
+}
+.sbmit-btn {
+  background-color: #363636;
+  border: 1px solid #363636;
+  width: 100%;
+  height: 40px;
+  color: #6e6e6e;
+  font-size: 10px;
+  margin: 26px 0 0 0;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  line-height: 36px;
+  font-family: "Sintony", sans-serif;  
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out 0s;
+  border-radius:0 20px 20px 0;
+}
+.sbmit-btn:hover{
+ color:#fff !important;
+ background: #9c9c9c;
+ border: 1px solid #9c9c9c;
+}
+.sbmit-btn:hover .fa{
+ color:#fff;}
+.subscribe p {
+ font-size:12px;
+ line-height: 18px;
+ color: #3f3f3f;
+ font-family: "Sintony", sans-serif;
+float:left;
+}
+@media only screen and (min-width:320px) and (max-width:767px) {
+.subs {display:table; height:auto; padding:15px !important;}
+.ss-q-title {float:none; width:100%; display:table; margin-bottom:0;}
+#valid_email {bottom:-20px; left:15px;}
+#ft .sign_news {overflow:hidden;}
+.subscribe {    
+    margin: 0px 0px 10px;
+}
+.email-bar {    
+    width: 100% !important;
+    margin:0 !important;
+border-radius:20px !important;
+}
+.sbmit-btn {    
+    width: 100%;
+    margin: 10px 0px;
+border-radius:20px;
+}
+.sbmit-btn .fa {    
+    text-align: center;
+    float: none;
+}
+.ss-form-question {width:100%;}
+.ss-item.ss-navigate {width:100%;}
+#ss-submit {float:none; width:auto;}
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+.email-bar {font-size: 12px !important;}
+#ft .newsletter {height:140px;}
+#valid_email {bottom:10px; right:15px;}
+
+
+.subscribe {
+    padding: 15px 15px 5px;
+}
+.subscribe h3 {
+    font-size: 10px;
+}
+.subscribe p {
+    font-size: 10px;
+    line-height: 18px;
+}
+.sbmit-btn {
+
+}
+}
+@media only screen and (min-width:1024px){
+#ft .newsletter {height:140px;}
+}
+--></style>
+<div class="newsletter-home"><!--<div class="newsletter-home">
+<div class="title-block text-center" style="margin-bottom: 25px;">
+<h2>join our newsletter</h2>
+<p>Sign up for our newsletter and get <span style="color: #ffffff;">20% off</span> your next order. Pretty sweet, we know.</p>
+</div>
+<div class="content block-newsletter">
+<div class="field newsletter">
+<div class="control"><input id="newsletter" class="input-text" type="email" name="email" data-validate="{required:true, 'validate-email':true}" /></div>
+</div>
+<div class="actions"><button class="action subscribe primary btn btn-primary" title="Subscribe" type="submit"> <span>Subscribe</span> </button></div>
+</div>
+</div>--> <!--form-code-->
+<div id="testing" style="display: none; //background: #ffffff; border: 1px solid #444; color: #444; padding: 5px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin: 10px 0px 10px 0px;"><strong>Thank You. We promise you'll never be missed out.</strong></div>
+<div class="ss-form-container"><form id="ss-form" style="// margin-left: 400px;" action="https://docs.google.com/a/infibeam.net/forms/d/e/1FAIpQLSeVW-anptI8vEw2RpoVAIkO58gS6Vb7djshAkC3FjozoKxmMQ/formResponse" method="POST" onsubmit="mycustom()" target="hidden_iframe"><iframe id="hidden_iframe" style="height: 0px; width: 0px; display: none;" name="hidden_iframe" src="javascript:false" width="0" height="0"></iframe>
+<div class="ss-form-question errorbox-good">
+<div class="ss-item  ss-text" dir="ltr">
+<div class="ss-form-entry">
+<div class="ss-q-title">
+<h1>join our newsletter</h1>
+<span class="small-txt"> Sign up for our newsletter and get <span style="color: #fff;">20% off</span> your next order. Pretty sweet, we know. </span></div>
+<input id="entry_2139602500" class="ss-q-short text email-bar" title="" dir="auto" onfocus="if(this.value == 'ENTER YOUR EMAIL ID HERE') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'ENTER YOUR EMAIL ID HERE'; }" type="text" name="emailAddress" value="ENTER YOUR EMAIL ID HERE" size="18px">
+<div id="454967190_errorMessage" class="error-message">&nbsp;</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="draftResponse" value="[,,&quot;-8441914816290092179&quot;]
+"><input type="hidden" name="pageHistory" value="0"><input type="hidden" name="fbzx" value="-8441914816290092179">
+<div class="ss-item ss-navigate">
+<table id="navigation-table">
+<tbody>
+<tr>
+<td id="navigation-buttons" class="ss-form-entry goog-inline-block" dir="ltr" width="300">
+<div class="sbmit-btn"><input id="ss-submit" class="jfk-button jfk-button-action" type="submit" name="submit" value="Subscribe"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</form></div>
+<div id="valid_email" style="display: none; color: #fd1d12;"><img style="height: 12px;" src="https://bab-assets1.babapi.ooo/img/html_widget_images/7367768/c9ea33ca881dc_1194985624696670932tasto10architettofran01.svg.med.png.999xx.png" alt="">&nbsp;Please enter valid email address</div>
+<!--form-code-end--></div>
+<script type="text/javascript">// <![CDATA[
+/**
+ * @license
+ *! H5F
+ * https://github.com/ryanseddon/H5F/
+ * Copyright (c) Ryan Seddon | Licensed MIT
+ */
+
+(function(e,t){"function"==typeof define&&define.amd?define(t):e.H5F=t()})(this,function(){var e,t,a,i,n,r,s,l,u,o,c,d,v,f,p,m,h,g,b,y,w,C,N,A,E,$,k=document,x=k.createElement("input"),q=/^[a-zA-Z0-9.!#$%&'*+-\/=?\^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,M=/[a-z][\-\.+a-z]*:\/\//i,L=/^(input|select|textarea)$/i;return r=function(e,t){var a=!e.nodeType||!1,i={validClass:"valid",invalidClass:"error",requiredClass:"required",placeholderClass:"placeholder"};if("object"==typeof t)for(var r in i)t[r]===void 0&&(t[r]=i[r]);if(n=t||i,a)for(var l=0,u=e.length;u>l;l++)s(e[l]);else s(e)},s=function(a){var i,n=a.elements,r=n.length,s=!!a.attributes.novalidate;if(b(a,"invalid",u,!0),b(a,"blur",u,!0),b(a,"input",u,!0),b(a,"keyup",u,!0),b(a,"focus",u,!0),b(a,"change",u,!0),b(a,"click",o,!0),b(a,"submit",function(i){e=!0,t||s||a.checkValidity()||w(i)},!1),!v())for(a.checkValidity=function(){return c(a)};r--;)i=!!n[r].attributes.required,"fieldset"!==n[r].nodeName.toLowerCase()&&l(n[r])},l=function(e){var t=e,a=g(t),n={type:t.getAttribute("type"),pattern:t.getAttribute("pattern"),placeholder:t.getAttribute("placeholder")},r=/^(email|url)$/i,s=/^(input|keyup)$/i,l=r.test(n.type)?n.type:n.pattern?n.pattern:!1,u=f(t,l),o=m(t,"step"),v=m(t,"min"),h=m(t,"max"),b=!(""===t.validationMessage||void 0===t.validationMessage);t.checkValidity=function(){return c.call(this,t)},t.setCustomValidity=function(e){d.call(t,e)},t.validity={valueMissing:a,patternMismatch:u,rangeUnderflow:v,rangeOverflow:h,stepMismatch:o,customError:b,valid:!(a||u||o||v||h||b)},n.placeholder&&!s.test(i)&&p(t)},u=function(e){var t=C(e)||e,a=/^(input|keyup|focusin|focus|change)$/i,r=/^(submit|image|button|reset)$/i,s=/^(checkbox|radio)$/i,o=!0;!L.test(t.nodeName)||r.test(t.type)||r.test(t.nodeName)||(i=e.type,v()||l(t),t.validity.valid&&(""!==t.value||s.test(t.type))||t.value!==t.getAttribute("placeholder")&&t.validity.valid?(A(t,[n.invalidClass,n.requiredClass]),N(t,n.validClass)):a.test(i)?t.validity.valueMissing&&A(t,[n.requiredClass,n.invalidClass,n.validClass]):t.validity.valueMissing?(A(t,[n.invalidClass,n.validClass]),N(t,n.requiredClass)):t.validity.valid||(A(t,[n.validClass,n.requiredClass]),N(t,n.invalidClass)),"input"===i&&o&&(y(t.form,"keyup",u,!0),o=!1))},c=function(t){var a,i,n,r,s=!1;if("form"===t.nodeName.toLowerCase()){a=t.elements;for(var l=0,o=a.length;o>l;l++)i=a[l],n=!!i.attributes.required,r=!!i.attributes.pattern,"fieldset"!==i.nodeName.toLowerCase()&&(n||r&&n)&&(u(i),i.validity.valid||s||(e&&i.focus(),s=!0));return!s}return u(t),t.validity.valid},d=function(e){var t=this;t.validationMessage=e},o=function(e){var a=C(e);a.attributes.formnovalidate&&"submit"===a.type&&(t=!0)},v=function(){return E(x,"validity")&&E(x,"checkValidity")},f=function(e,t){if("email"===t)return!q.test(e.value);if("url"===t)return!M.test(e.value);if(t){var i=e.getAttribute("placeholder"),n=e.value;return a=RegExp("^(?:"+t+")$"),n===i?!1:""===n?!1:!a.test(e.value)}return!1},p=function(e){var t={placeholder:e.getAttribute("placeholder")},a=/^(focus|focusin|submit)$/i,r=/^(input|textarea)$/i,s=/^password$/i,l=!!("placeholder"in x);l||!r.test(e.nodeName)||s.test(e.type)||(""!==e.value||a.test(i)?e.value===t.placeholder&&a.test(i)&&(e.value="",A(e,n.placeholderClass)):(e.value=t.placeholder,b(e.form,"submit",function(){i="submit",p(e)},!0),N(e,n.placeholderClass)))},m=function(e,t){var a=parseInt(e.getAttribute("min"),10)||0,i=parseInt(e.getAttribute("max"),10)||!1,n=parseInt(e.getAttribute("step"),10)||1,r=parseInt(e.value,10),s=(r-a)%n;return g(e)||isNaN(r)?"number"===e.getAttribute("type")?!0:!1:"step"===t?e.getAttribute("step")?0!==s:!1:"min"===t?e.getAttribute("min")?a>r:!1:"max"===t?e.getAttribute("max")?r>i:!1:void 0},h=function(e){var t=!!e.attributes.required;return t?g(e):!1},g=function(e){var t=e.getAttribute("placeholder"),a=/^(checkbox|radio)$/i,i=!!e.attributes.required;return!(!i||""!==e.value&&e.value!==t&&(!a.test(e.type)||$(e)))},b=function(e,t,a,i){E(window,"addEventListener")?e.addEventListener(t,a,i):E(window,"attachEvent")&&window.event!==void 0&&("blur"===t?t="focusout":"focus"===t&&(t="focusin"),e.attachEvent("on"+t,a))},y=function(e,t,a,i){E(window,"removeEventListener")?e.removeEventListener(t,a,i):E(window,"detachEvent")&&window.event!==void 0&&e.detachEvent("on"+t,a)},w=function(e){e=e||window.event,e.stopPropagation&&e.preventDefault?(e.stopPropagation(),e.preventDefault()):(e.cancelBubble=!0,e.returnValue=!1)},C=function(e){return e=e||window.event,e.target||e.srcElement},N=function(e,t){var a;e.className?(a=RegExp("(^|\\s)"+t+"(\\s|$)"),a.test(e.className)||(e.className+=" "+t)):e.className=t},A=function(e,t){var a,i,n="object"==typeof t?t.length:1,r=n;if(e.className)if(e.className===t)e.className="";else for(;n--;)a=RegExp("(^|\\s)"+(r>1?t[n]:t)+"(\\s|$)"),i=e.className.match(a),i&&3===i.length&&(e.className=e.className.replace(a,i[1]&&i[2]?" ":""))},E=function(e,t){var a=typeof e[t],i=RegExp("^function|object$","i");return!!(i.test(a)&&e[t]||"unknown"===a)},$=function(e){for(var t=document.getElementsByName(e.name),a=0;t.length>a;a++)if(t[a].checked)return!0;return!1},{setup:r}});
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+function mycustom()
+{
+var y=document.getElementById("entry_2139602500");
+                var email=y.value;
+                var a=email.indexOf("@");
+                var b=email.lastIndexOf(".");
+                if(a<1 || b<a+2 || b+2>=email.length || email==""){
+                   document.getElementById("valid_email").style.display = "block";
+                    y.focus();
+return false;
+                }
+document.getElementById("testing").style.display = "block";
+document.getElementById("valid_email").style.display = "none";
+document.getElementById("ss-form").style.display = "none";
+document.getElementById("bethe").style.display = "none";
+
+}
+// ]]></script>
+<script type="text/javascript" src="/static/forms/client/js/1152951977-formviewer_prd.js"></script>
+<script type="text/javascript">// <![CDATA[
+H5F.setup(document.getElementById('ss-form'));
+          _initFormViewer(
+            "[100,,[]\n]\n");
+// ]]></script></div>
+                
+              </div>
+            
+          </div>
+        
+      
+    
+    </div>
+
+  
+
+
+      </div>
+
+      <!-- CONFIG TO ADD JS_FEATURES -->
+      
+      
+        
+
+
+
+
+        
+      
+      <!-- END -->
+      <div id="ft" class='clearfix'>
+  <div id="ft-wrap">
+    
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget footer _widget clearfix"><div class="row">
+<div class="fo1 clearfix">
+<div class="col-sm-12 col-xs-12">
+<ul class="social-link">
+<li><a href="https://www.facebook.com/BuildaBazaar">&nbsp;<span class="fa fa-facebook">&nbsp;</span></a></li>
+<li><a href="https://twitter.com/buildabazaar">&nbsp;<span class="fa fa-twitter">&nbsp;</span></a></li>
+<li><a href="https://www.linkedin.com/company/buildabazaar-com">&nbsp;<span class="fa fa-linkedin">&nbsp;</span></a></li>
+<li><a href="https://www.pinterest.com/buildabazaar/">&nbsp;<span class="fa fa-pinterest">&nbsp;</span></a></li>
+<li><a href="https://www.youtube.com/BuildaBazaar">&nbsp;<span class="fa fa-youtube">&nbsp;</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fo2 clearfix">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<ul class="footer-menu">
+<li><a href="contact_us.html">Help &amp; Contact</a></li>
+<li><a href="terms_conditions.html">Terms Conditions</a></li>
+<li><a href="privacy_policy.html">Privacy Policy</a></li>
+<li><a href="/my-account">My Account</a></li>
+<li><a href="wish-list.html">Wish-list</a></li>
+</ul>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12"><address class="copy">Copyright &copy; 2019 <a href="https://www.infibeam.com/">Infibeam.com</a>. All rights reserved.</address></div>
+</div>
+<style><!--
+ .social-link { display: table; margin: 0 auto; } .social-link li { float: left; margin: 0 7.5px; display: inline; } .social-link a { border: 1px solid #000; background-color: #000; color: #a7a7a7; display: block; font-size: 14px; height: 34px; line-height: 30px; padding-left: 2px; text-align: center; width: 34px; border-radius: 50%; } .fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .social-link a:hover { background-color: #747474; border-color: #747474; color: #fff; }
+ .footer-menu {
+ padding-top: 27px;
+ padding-bottom: 8px;
+ text-align: center;
+ }
+ .footer-menu li {
+ display: inline-block;
+ margin: 0 13px 10px;
+ }
+ .footer-menu li a {
+ color: #6b6b6b;
+ }
+ .footer-menu li a:hover, .footer-menu li a:focus {
+ color: #fff;
+ }
+ address.copy 
+ {
+ margin-bottom: 0;
+ font-style: normal;
+ line-height: 1.7;
+ text-align: center;
+ }
+ --></style>
+<!-- WhatsHelp.io widget -->
+<p>
+<script type="text/javascript">// <![CDATA[
+  (function () {
+   var options = {
+    facebook: "384446005350048", // Facebook page ID
+    whatsapp: "+919909039826", // WhatsApp number
+    email: "cs@buildabazaar.com", // Email
+    call: "079-67772245", // Call phone number
+    company_logo_url: "//storage.whatshelp.io/widget/3e/3e95/3e9510ba2a09be2c73f4a41ee5ee0391/26219573_384510888676893_5671902284092564299_n.png", // URL of company logo (png, jpg, gif)
+    greeting_message: "Hello, how may I help you? I am Your Store Creation Assistant.", // Text of greeting message
+    call_to_action: "Message us", // Call to action
+    button_color: "#FF6550", // Color of button
+    position: "right", // Position may be 'right' or 'left'
+    order: "facebook,call,email,whatsapp" // Order of buttons
+   };
+   var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+   var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+   s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+   var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+  // ]]></script>
+</p>
+<!-- /WhatsHelp.io widget --></div>
+                
+              </div>
+            
+          </div>
+        
+      
+    
+    <div class=" row" id="ft-powerby"><div class="text-right col-md-12 col-sm-12"><span>Powered by </span><a href='http://www.infibeam.com' target='_blank'>infibeam</a></div></div>
+  </div>
+</div>
+
+    </div>
+    
+  
+    
+    <script>bjQuery(document).trigger('page_end')</script>
+  </body>
+</html>
+

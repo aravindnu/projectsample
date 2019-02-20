@@ -1,0 +1,842 @@
+﻿
+
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="en" data-add_this_id='' data-img-load="eager">
+  <head>
+        
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+    
+    <title>
+      timetriangle
+    </title>
+    
+  
+  
+  
+    <meta name="Robots" content="noimageindex, nomediaindex, noimageclick">
+  
+  
+    
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+
+    
+
+    <link rel="shortcut icon" href="https://bab-assets1.babapi.ooo/img/shrd/lookandfeel/63/80/371/c4bb794914448_favicon.png.999x16x16.ico">
+
+    
+    
+    
+        <!--[if (!IE)|(gte IE 8)]><!-->
+<link href="https://bab-assets1.babapi.ooo/packages/bootstrap-datauri.css?1507185537" media="all" rel="stylesheet" type="text/css">
+<!--<![endif]-->
+<!--[if lte IE 7]>
+<link href="https://bab-assets1.babapi.ooo/packages/bootstrap.css?1507185537" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
+        <!--[if (!IE)|(gte IE 8)]><!-->
+          <link href="https://bab-assets1.babapi.ooo/exthemes/63/80/371/theme-6380371-2/stylesheets/site-datauri.css?1514892022" media="all" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+        <!--[if lte IE 7]>
+          <link href="https://bab-assets1.babapi.ooo/exthemes/63/80/371/theme-6380371-2/stylesheets/site-.css?1514892022" media="screen" rel="stylesheet" type="text/css" />
+        <![endif]-->
+      
+
+
+    
+    <!--[if lt IE 10]>
+      <script type="text/javascript" src="/javascripts/respondIE/respondmore.min.js"></script>
+      <link href= 'https://bab-assets1.babapi.ooo/javascripts/respondIE/respond-proxy.html' id="respond-proxy" rel="respond-proxy" />
+      <link href="/javascripts/respondIE/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+      <script src="/javascripts/respondIE/respond.proxy.js"></script>
+    <![endif]-->
+    
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      !window.jQuery && document.write(unescape("%3Cscript src='/javascripts/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">window.bjQuery = window.jQuery</script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+      !window.jQuery.ui && document.write(unescape("%3Cscript src='/javascripts/jquery-ui-1.8.16.custom.min.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script src="https://bab-assets1.babapi.ooo/packages/bootstrap.js?1533881935" type="text/javascript"></script>
+    <script src="https://bab-assets1.babapi.ooo/javascripts/site-javascripts/6380371/global.js?1514274059" type="text/javascript"></script>
+    <script src="https://bab-assets1.babapi.ooo/exthemes/63/80/371/theme-6380371-2/javascripts/site.js?1514892022" type="text/javascript"></script>
+    <script type="text/javascript">
+      !window.JSON && document.write(unescape('%3Cscript src="https://bab-assets1.babapi.ooo/javascripts/json2.js?1429854677" type="text/javascript"%3E%3C/script%3E'));
+    </script>
+
+    
+
+    <script type="text/javascript">
+      bjQuery(document).ready(function($) {
+
+        
+
+        // TRIGGER EVENT TO SHOW ADD TO CART AS POPUP
+          effect_options = null
+          if (effect_options && effect_options.add_to_cart_popup)
+          {
+            $(document).trigger('add_to_cart_popup_effect',effect_options);
+          }
+        // END
+
+        //DYNAMICALLY SET HEADER BY USING USER DETAILS STORED IN COOKIES (HELPS FOR CACHED PAGES).
+        //RAILS CACHE OPTION :LAYOUT => FALSE DOES NOT WORK ON PAGES/TEMPLATES USING CONTENT_FOR TAGS CURRENTLY.
+        var username;
+        if ((username = $.cookies.get("username")) != null)
+        { 
+          username = username.toString().replace(/\+/g," ");
+          var login_msg = "<a class='login-msg'>Hello $$username</a> |  <a href=\"/logout\" class=\"logout\">Logout</a>"
+          $(document).trigger("logged-in",[{"name":username,"email":$.cookies.get("user_email")},login_msg.replace('$$username',username)]);
+        }
+        else
+        {
+          $(document).trigger("logged-out");
+        }
+
+        
+
+        // END
+
+        
+
+        
+          $(document).trigger("show-cart-details",{"show_on_hover":{"item_details":{"delete_confirmation":false,"image":true,"price":true,"delete_item":true,"quantity":true,"title":true},"item_count_limit":0,"carousel":{"enabled":false,"options":{"vertical":false,"visible":"","scroll":""}},"enabled":true},"total_quantity":false,"total_amount":false});
+        
+
+        
+      });
+      
+    </script>
+
+    
+  
+    <!-- START : Google Analytics -->
+    
+
+    
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-2515569-29', 'auto');
+
+        
+          ga('require', 'displayfeatures');
+        
+        ga('send', 'pageview');
+      </script>
+
+    
+  
+  
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "http://timetriangle.buildabazaar.ooo",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "http://timetriangle.buildabazaar.ooo/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  
+
+  
+
+
+  
+  </head>
+
+    
+    
+    <!--[if lt IE 7 ]> <body class='responsive  ie6'> <![endif]-->
+    <!--[if IE 7 ]>    <body class='responsive  ie7'> <![endif]-->
+    <!--[if IE 8 ]>    <body class='responsive  ie8'> <![endif]-->
+    <!--[if IE 9 ]>    <body class='responsive  ie9'> <![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!--> <body class='responsive '> <!--<![endif]-->
+      
+  
+      <noscript><span class='notice' style="font-size:2em; display: block;">
+        This site uses Javascript. Your browser either
+        doesn't support Javascript or you have it turned off.
+        To see this page as it is meant to appear please use
+        a Javascript enabled browser.</span></noscript>
+
+      
+      <div id="page" class="f-cod f-relateditems f-internationalshipping f-fb_con f-fb_connect f-accounts_tab f-infibeam_listing f-new_browse_node_urls_in_sdp_and_search f-reviews f-cart_details_in_header f-crazysort f-quick_view f-additional_layouts_for_selection f-layout_change_enabled f-zipcode_serviceability_check_on_pdp f-go_to_top_btn f-carousel_type f-related_items f-one_page_checkout f-custom_default_variant f-enable_checkout_product_image f-conversion_tracking_code_snippet f-google_analytics_remarketing f-universal_google_analytics f-js_feature f-invoice_options f-webstore_feeds_catalog_update_downloads">
+      
+      
+      
+
+      
+      
+  <div id="hd">
+    
+    
+      
+        
+        <div class="tp row_wrapper" style="background:#000;"><div class="hero-unit row visible-md visible-lg">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget header _widget clearfix"><div class="trans">
+<div class="col-lg-2 logo-top"><a href="https://www.buildabazaar.ooo/" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/shrd/html_widget_images/63/80/371/987b05c313f1f_bablogo.png.999xx.png" alt="" width="100%"></a></div>
+<div class="col-lg-9 frm">
+<div class="frm_wrap">
+<div class="container" style="max-width: 100%; width: 100%; padding-left: 0px; padding-right: 0px;">
+<div class="row" style="max-width: 100%; margin-right: 0px; margin-left: 0px;">
+<div class="col-sm-12 col-xs-12">
+<div id="errorSummary" class="col-sm-12" style="display: none;">&nbsp;</div>
+<div class="panel">
+<div class="panel-body">
+<div class="loader" style="display: none;">&nbsp;</div>
+<h4 class="modal-title">Get Started with <span class="">15 days FREE</span> trial</h4>
+<div style="margin-top: 40px; display: inline;"><a href="https://www.buildabazaar.ooo/sites/new?plan=silver&amp;tj" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/html_widget_images/41411/e7d6bae3bde7a_04.png.989xx.png"></a> <a href="https://www.buildabazaar.ooo/sites/new?plan=gold&amp;tj" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/html_widget_images/41411/cbda5c9936f39_05.png.989xx.png"></a> <a href="https://www.buildabazaar.ooo/sites/new?plan=gold_plus&amp;tj" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/html_widget_images/41411/908ef674592d8_06.png.989xx.png"></a> <a href="https://www.buildabazaar.ooo/contactus?category=platinum_quote&amp;tj" target="_blank" rel="noopener"><img src="https://bab-assets1.babapi.ooo/img/html_widget_images/41411/b9782e44f4d10_07.png.989xx.png"></a></div>
+<form id="coffeeFormone" class="form-horizontal" style="display: none;" method="post">
+<div class="form-group">
+<div class="col-sm-12 col-xs-12"><input id="store_name" class="form-control" maxlength="50" name="store_name" type="text" placeholder="Your store name"></div>
+</div>
+<div class="form-group">
+<div class="col-sm-12 col-xs-12"><input id="email_address" class="form-control" name="email_address" type="text" placeholder="Email address"></div>
+</div>
+<div class="form-group">
+<div class="col-sm-12 col-xs-12"><input id="phone_number" class="form-control phone_number" name="phone_number" type="text" placeholder="Mobile number"></div>
+</div>
+<div class="form-group">
+<div class="col-sm-12 col-xs-12"><button class="btn btn-red" name="submit" type="submit" value="Sumbit">Create your store</button></div>
+</div>
+</form></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">// <![CDATA[
+   $.validator.setDefaults({
+    submitHandler: function () {
+     $("#errorSummary").html("");
+     $(".loader").show();
+
+     $.ajax({
+      url: 'https://magentoatdrc.com/foodsp1form/validate_and_save.php',
+      type: 'POST',
+      data: $("#coffeeFormone").serialize(),
+      async:true,
+      success: function (response) {
+       //$("#errorSummary").html(response);
+       $("#coffeeFormone").trigger("reset");
+       window.location.href = 'http://www.buildabazaar.ooo/pricing';
+      },
+      error: function (response, error) {
+       $("#coffeeFormone").trigger("reset");
+       $("#errorSummary").html("Oops!Something went wrong. Try again.");
+      },
+      complete: function () {
+       $(".loader").hide();
+      }
+     });
+    }
+   });
+   $(document).ready(function () {
+    $.validator.addMethod("validate_email", function (value, element) {
+     if (/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(value)) {
+      return true;
+     } else {
+      return false;
+     }
+    }, "Please enter a valid email address.");
+    $("#coffeeFormone").validate({
+     rules: {
+      store_name: {
+       required: false,
+       maxlength: 50
+      },
+      email_address: {
+       required: false,
+       validate_email: true
+      },
+      phone_number: {
+       required: false,
+      }
+     },
+     messages: {
+      store_name: {
+       maxlength: "Only 50 characters are allowed."
+      },
+      email_address: "Please enter a valid email address."
+     },
+     errorElement: "em",
+     errorPlacement: function (error, element) {
+      // Add the `help-block` class to the error element
+      error.addClass("help-block");
+      if (element.prop("type") === "checkbox") {
+       error.insertAfter(element.parent("label"));
+      } else {
+       error.insertAfter(element);
+      }
+     },
+     highlight: function (element, errorClass, validClass) {
+      $(element).parents(".col-sm-5").addClass("has-error").removeClass("has-success");
+     },
+     unhighlight: function (element, errorClass, validClass) {
+      $(element).parents(".col-sm-5").addClass("has-success").removeClass("has-error");
+     }
+    });
+
+    $('.phone_number').on("keypress", function (event) {
+     var inputValue = event.which;
+     if ((inputValue != 46 || $(this).val().indexOf('.') != -1) && inputValue != 0 && inputValue != 8 && (inputValue < 48 || inputValue > 57)) {
+      if (inputValue != 43) {
+       event.preventDefault();
+      }
+     }
+    });
+   });
+   // ]]></script>
+</div>
+<div class="col-lg-1 cls_btn"><button class="close">Close</button></div>
+</div>
+<style><!--
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control {
+ margin: 0px 24px 0px 0px;
+ width: 190px;
+ max-width: 100%;
+ border: 0px none;
+ border-radius: 4px;
+ box-shadow: 0px 0px 0px #FFF;
+ height: 45px;
+ }
+ .tp .trans .form-horizontal .form-group {
+ display: inline-block !important;
+ }
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group {
+ margin-bottom: 0px;
+ }
+ .tp .form-horizontal .form-group {
+ margin-right: -15px;
+ margin-left: -15px;
+ }
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone {
+ text-align: center;
+ }
+ .tp .trans{
+ position: absolute;
+ top: -107px;
+ left: 0px;
+ width:100%;
+ background-color:#202020 !important;
+ }
+ @media only screen and (min-width: 1025px){
+ #hd{margin-top:107px;}
+ }
+ .tp .close{
+ background: transparent url("https://bab-assets1.babapi.ooo/img/shrd/html_widget_images/71/41/068/3b56273a4538c_closebtn.png.999xx.png") no-repeat scroll 0% 0% !important;
+ font-size: 0px;
+ border-radius: 0px;
+ margin:0px auto !important;
+ width: 24px;
+ height: 24px;
+ opacity: 1;
+ min-width: 24px;
+ }
+ .cls_btn{display:flex;text-align:center;}
+ .tp .trans h4{
+ color: #FFF;
+ font-size: 19px;
+ margin-top: 13px;
+ margin-left: 0px;
+ text-align: left;
+ letter-spacing: 2px;
+ font-weight: 500;
+ /* text-transform: uppercase; */
+ display: inline-block;
+ line-height: 62px;
+ }
+ .tp .panel-body a {
+ margin-left: 9px;
+ }
+ .tp .panel-body {
+ padding: 6px;
+ }
+ .tp .frm, .tp .panel{background-color:#202020 !important;margin-bottom:18px;height: 87px;}
+ .tp .logo-top{background:#000000;height:107px;padding-top:21px;}
+ .cls_btn{background:#000000;height:107px;padding-top:41px;}
+ .tp .trans .btn{height:43px;}
+ .tp .trans h4 span{color:#ff3939;font-weight:600;}
+ .tp .frm .btn {
+ background: #F25E04 none repeat scroll 0% 0%;
+ font-size: 14px;
+ font-weight: 600 !important;
+ width: auto;
+ max-width: 100%;
+ float: right;
+ padding: 10px 16px;
+ border-radius: 8px;
+ text-transform: none;
+ text-transform: uppercase;
+ }
+ @media only screen and (min-width: 1600px) and (max-width: 1600px) {
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control {width:265px;}
+ }
+ @media only screen and (min-width: 1366px) and (max-width: 1366px) {
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control {width:206px;}
+ }
+ @media only screen and (min-width: 1920px) and (max-width: 1920px) {
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control {width:343px;}
+ }
+ .tp .trans .frm_wrap .row > div.col-sm-12 .panel .panel-body #coffeeFormone .form-group .form-control{font-size:16px;}
+ .tp #email_address-error {
+ display: none !important;
+ }
+ --></style>
+<script type="text/javascript">// <![CDATA[
+ $(document).ready(function(){
+  $("button").click(function(){
+   $("div#hd").css("margin-top", "0px");
+  });
+ });
+ // ]]></script></div>
+                
+              </div>
+            
+          </div>
+        </div>
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget header _widget clearfix"><div class="top_cart"><a class="shopping-cart" href="/shopping-cart"><em class="fa fa-shopping-cart">&nbsp;</em> </a></div>
+<style><!--
+#product-detail-page .write-review {
+    display: block !important;
+    padding: 2px;
+    text-align: center;
+    }
+--></style></div>
+                
+                  <div class="advanced-header-widget header _widget clearfix">
+
+
+
+<div class='logo-top-links'>
+  <div class='row'>
+    <div class='col-md-3 col-sm-3'>
+      <div class='logo'>
+        <a href="index.html" title="home"><img src='https://bab-assets2.babapi.ooo/img/shrd/lookandfeel/63/80/371/52a2dee92fedf_timetriangle.png.999xx.png' alt='timetriangle'></a>
+      </div>
+    </div>
+    <div class='col-md-9 col-sm-9'>
+      <div class='top-links'>
+        <a href="/my-account" class=" my-account">My Account</a>
+      </div>
+      <div class="row search-wrapper">
+        <div class="col-md-3 col-sm-3 "></div>
+        <div class="col-md-9 col-sm-9 search-bar-container">
+          <div class="search-bar">
+            <form action="/search" class="input-group" id="search" method="get">
+              <span class="label">Search</span>
+              <span class="input-group-btn search-category-container">
+                <select class="search-category"></select>
+              </span>
+              <input class="text" id="search-input" name="q" type="text">
+              <span class="input-group-btn search-go-container">
+                <input class="search-go" type="submit" value="GO">
+              </span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='header-menu'>
+  <nav class="navbar navbar-default" role="navigation">
+
+    <div class="navbar-header">
+      
+      <button class="navbar-toggle navbar-toggle-collapse navbar-menu-toggle" data-target="#nav-menu-1332829" data-toggle="collapse" type="button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <div class="navbar-collapse collapse" id="nav-menu-1332829">
+      
+      <ul class="nav navbar-nav">
+        
+        
+  
+  
+    <li><a href="home.html" class=" ">Home</a></li>
+  
+
+  
+  
+    <li><a href="men\search.html" class=" ">Men</a></li>
+  
+
+  
+  
+    <li><a href="women\search.html" class=" ">Women</a></li>
+  
+
+  
+  
+    <li><a href="about_us.html" class=" ">About Us</a></li>
+  
+
+  
+  
+    <li><a href="contact_us.html" class=" ">Contact Us</a></li>
+  
+
+      </ul>
+    </div>
+  </nav>
+</div>
+</div>
+                
+              </div>
+            
+          </div>
+        
+      
+    
+  </div>
+
+
+
+      <div id="bd" class="clearfix">
+        
+        
+
+
+        
+        
+
+  
+
+  
+    
+    
+    
+  <div id="content-slot">
+      
+      <div class=" row">
+        <div class="page-content col-md-12 col-sm-12">
+            
+        </div>
+      </div>
+      
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget content _widget clearfix"><div id="pol__poltnc" class="qnans Privacy_build">
+<h4 class="qn">Terms &amp; Conditions</h4>
+<div class="ans">
+<p>To avail the services offered at our web site or by any of its affiliates, you must agree to the following terms and conditions. If you visit, shop or browse at our web site you accept these conditions.</p>
+<p>Please read the terms and conditions carefully. While using any current or future services offered by our web site or any of its affiliates, whether or not included in the our web site website, you will abide by these Terms &amp; conditions the guidelines and conditions applicable to such service or business.</p>
+<h4>Privacy Policy</h4>
+<p>Please review our Privacy Policy, which also governs your visit to our web site, to fully understand our practices.</p>
+<h4>Terms and conditions are binding for all purchases</h4>
+<p>All orders are deemed offers for you to purchase our products. We may accept your offer by issuing a confirmatory e-mail and/or mobile confirmation of the products specified in your order. Our acceptance of each such offer is expressly subject to and conditioned on your assent to these terms and conditions of sale. No other terms and conditions will apply.</p>
+<h4>Electronic Communication</h4>
+<p>When you visit our web site or send e-mails to us, you are communicating with us electronically. By communicating with us, you consent to receive communication from us electronically. We will communicate with you by e-mail or by posting notices on our website. You agree that all agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communication be in writing.</p>
+<h4>Prices</h4>
+<p>All prices posted on this website are subject to change without notice. our web site provides price protection for items during refund and returns. However, if the price of a product increases before the shipment, you shall be notified of the same. In such a scenario, the product shall be shipped based on your confirmation.. Posted prices includes all taxes and charges. In case there are any additional charges or taxes the same will be mentioned on the website.</p>
+<h4>Payment</h4>
+<p>All payments must be received by us prior to shipping unless the order is placed by using Cash on delivery (COD) payment mode. We accept payment by cheque/cash/draft, net-banking, credit card, debit card, cash card, mobile payments. EMI facility is also available with us.</p>
+<h4>Shipping and Handling</h4>
+<p>We will arrange for shipment of the products to you. Shipping schedules are estimates only and cannot be guaranteed. We are not liable for any delays in the shipments. Title and risk of loss and damages pass on to you upon the products delivery to you. In case reverse shipment cannot be arranged by us due to unavailability of our logistics partners, then in that case you may be requested to send such products through any available courier services.</p>
+<h4>Return of Products by you</h4>
+<p>We will accept the return of the products, provided such return is for products that are defective, wrongly delivered, wrong product, damaged during transit, incomplete package etc. subject to the condition that we are informed about such discrepancies within 72 hours from the date of receipt of the product and provided that the products are returned in their original condition. However, in case of transit damages, the issue has to be reported within 48 hours, after which we may not be able to accept the complaint.</p>
+<h4>Easy replacement</h4>
+<p>our web site offers easy replacement for all products sold on our web site, under certain conditions which are mentioned below.</p>
+<ul>
+<li style="list-style: disc;">Customers will notify us of any damage or defect within 72 hours from the date of receipt of delivery of the products.</li>
+<li style="list-style: disc;">In case of transit damages, the issue has to be reported within 48 hours, after which we may not be able to accept the complaint.</li>
+<li style="list-style: disc;">We may ask you to share the images of the product and the internal &amp; external packaging material.</li>
+<li style="list-style: disc;">Once we agree to replace, the defective/damaged product will be replaced with a brand new product at no extra cost.</li>
+<li style="list-style: disc;">In case customer fails to inform our web site within the stipulated time frame, our web site reserves the right to accept or reject such request at its discretion.</li>
+<li style="list-style: disc;">our web site will try to replace the specific product ordered. However, the company reserves the right to offer an alternate product in case the product is Out of Stock or Discontinued by the manufacturer.</li>
+<li style="list-style: disc;">The replacement guarantee is valid only in cases of manufacturing defects and transport damages.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Return policy is not valid for perishable products such as Cakes, Flowers, Chocolates, etc. If one comes across any issue with these products, they are advised to contact our customer support team within 24 hours. We will try to resolve the complaint in the best possible manner; however, it&rsquo;s not guaranteed that we&rsquo;ll be able to provide replacement/refund request.</p>
+<p>Damages due to normal wear &amp; tear and negligence on part of the customer or Digital content such as e-books is not returnable at all.</p>
+<h4>Changes and Cancellation</h4>
+<p>Any item additions, quantity changes or specification changes made to accepted orders will be modified in the order details. All sales are final, provided, however, item cancellations and quantity reductions may be made before the order is shipped. We may, without liability, cancel any accepted order before shipment if our credit department does not approve your credit or if there are other problems with the payment mode selected by you.</p>
+<h4>Cancellation of Order by our web site</h4>
+<p>our web site reserves the right to refuse or cancel any order placed for a product due to any of the below reasons:</p>
+<ul>
+<li style="list-style: disc;">Technical issues related to pricing information.</li>
+<li style="list-style: disc;">Non-availability of the product(s).</li>
+<li style="list-style: disc;">Payment problem identified by Fraud Detection Department.</li>
+</ul>
+<p>&nbsp;</p>
+<p>This shall be regardless of whether the order has been confirmed and/or payment been received. 100% payment shall be refunded and the User shall be informed of the same.</p>
+<p><strong>Note</strong>: We may put additional checks and verifications or seek more information before accepting any order. We will contact you if all or a part of your order is cancelled or if additional information is required to accept your order.</p>
+<h4>License and Website Access</h4>
+<p><strong>General</strong>: our web site grants you a limited license to access and make personal use of this website and not to download (other than page caching) or modify it, or any portion of it, except with express written consent of our web site.</p>
+<p><strong>No license for commercial sale</strong>: This license does not include any resale or commercial use of this website or its content; any collection and use of any product listing, description, or pricing; copying of account information for the benefit of another merchant; or any use of data mining, or similar data gathering and extraction tools.</p>
+<p><strong>No reproduction</strong>: This website or any portion of this website may not be reproduced, duplicated, copied, sold, visited, or otherwise exploited for any commercial purpose without express written consent of our web site.</p>
+<p><strong>No framing</strong>: You may not frame or utilize framing technologies to enclose any trademark, logo, or other proprietary information ( including images, text, page layout, or form) of our web site and its affiliates without the express written consent.</p>
+<p><strong>Metatags</strong>: You may not use any metatags or any other 'hidden text' utilizing our web site's name or trademarks without the express written consent of our web site. Any unauthorized use terminates the permission or license granted by our web site.</p>
+<h4>Your Account</h4>
+<p><strong>Protection of Your Account</strong>: You are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer. You shall be responsible for all activities that occur under your account or password.</p>
+<p><strong>Use by Children</strong>: our web site does sell products for children, but it sells them to adults. If you are under age of 18 years, you may use our web site only with involvement of a parent or guardian. our web site and its affiliates reserve the right to refuse service, terminate accounts, remove or edit content, or cancel orders in their sole discretion.</p>
+<h4>Gift Voucher/Wallet/Prepaid Credit (the "Credit")</h4>
+<p>&nbsp;</p>
+<ul>The Credit cannot be exchanged for cash or cheque.
+<li style="list-style: disc;">The holder of the Credit is deemed to be the beneficiary.</li>
+<li style="list-style: disc;">The full amount of Credit can be applied to only one account on our web site.</li>
+<li style="list-style: disc;">Credit cannot be used with other promotional offers on our web site.</li>
+<li style="list-style: disc;">The Credit can be redeemed on our web site.</li>
+<li style="list-style: disc;">For information on wallet please <a href="https://www.infibeam.com/">click here</a>.</li>
+<li style="list-style: disc;">Gift Voucher hard copies shall be mailed to the Customer.</li>
+<li style="list-style: disc;">Gift Voucher is valid for 6 months from the date of purchase. On request from Customer, Gift Vouchers can be emailed either to the registered email ID of Customer or any other email ID designated by Customer, once the Order has been processed.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4>Reviews, Comments, Communications, and other content</h4>
+<p><strong>Nature of content</strong>:Visitors to our web site may post reviews, comments and other content; send e-cards and other communications; and submit suggestions, ideas, comments, questions or other information, as long as the content is not illegal, obscene, threatening, defamatory, invasive of privacy, infringing of intellectual property rights to otherwise injurious to third party or objectionable and does not consist of or contains software virus, political campaigning, commercial solicitation, mass mailing or any form of spam.</p>
+<p><strong>False information</strong>:You may not use false email address, impersonate any person or entity, or otherwise mislead as to the origin of a card or other content. Inifbeam reserves the right (but not the obligation) to remove or edit such content but does not regularly review posted contents.</p>
+<p><strong>Rights Granted</strong>:If you do post content or submit material and unless we indicate otherwise, you grant our web site and its affiliates a non-exclusive, royalty free, perpetual, irrevocable, and fully sub-licensed right to use, reproduce, modify, adapt, publish, translate, create derivative work from, distribute, and display such content throughout the world in any media. You grant our web site and its affiliate sites and sub-license the right to use the name that you submit in connection with such content if our web site chooses.</p>
+<p><strong>Right Owned</strong>: You represent and warrant that you own all the rights or otherwise or control all of the rights to the content that you post; that the content is accurate; that the use of the content to supply does not violate this policy and will not cause injury to any person or entity and that you will indemnify our web site or its affiliate for all claims resulting from the content you supply. our web site has the right but not the obligation to monitor and edit or remove any activity or content. our web site takes no responsibility and assumes no liability for any content posted by you or any third party.</p>
+<h4>Risk of Loss</h4>
+<p>All items purchased from our web site are made pursuant to the shipment contract. This means that the risk of loss and title for such item passes on to you upon the products delivery.</p>
+<h4>Product Description</h4>
+<p>our web site and its affiliates attempt to be as accurate as possible. However, our web site makes no warranties that the product description and any other content of its site are accurate, complete, reliable, current or error free. The product offered by our web site itself is not as described and its sole remedy is to return in its unused condition.</p>
+<h4>Site Policies, Modification, and Severability</h4>
+<p>Please review our other policies. We reserve the right to make changes to our website, policies, and these Terms and Conditions at any time. If any of these conditions shall be deemed invalid, void, or for any reason unenforceable, that condition shall be deemed severable and will not affect the validity and enforceability of any remaining conditions.</p>
+<h4>Intellectual Property Rights</h4>
+<p><strong>Copyright Protection</strong>:All content included on this site, such as text, graphics, logos, button icons, audio clips, digital downloads, data compilations and software, is the property of our web site or its affiliate sites and protected by the Indian Copyright law. The compilation of all the content on this site is the exclusive property of our web site and protected by Indian Copyright law. All software used in this site is the property of our web site and is protected under the Indian Copyright law.</p>
+<p><strong>Trademarks</strong>:</p>
+<p>&nbsp;</p>
+<ul>
+<li style="list-style: disc;">Protected Marks: our web site, our web site, our web site &amp; design, our web site books, products, and other marks indicated on our web site website are registered trademarks of our web site.</li>
+<li style="list-style: disc;"><strong>Protected Graphics</strong>: All our web site graphics, logos, page headers, button icons, scripts and service names are trademarks or trade dress of our web site. our web site's trademarks and trade dress may not be used in connections with any product or service that is not of our web site. All other trademarks not owned by our web site or its affiliates that appear on our web site or its affiliate sites are the property of their respective owners, who may or may not be affiliated with, connected to, associated with our web site or its affiliates.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>Governing Law and Jurisdiction</h4>
+<p>These terms and conditions will be construed only in accordance with the laws of India. In respect of all matters/disputes arising out of, in connection with or in relation to these terms and conditions or any other conditions on this website, only the competent Courts at Ahmedabad, Gujarat shall have jurisdiction, to the exclusion of all other courts.</p>
+<h4>Disclaimer of warranties and Limitation of Liability</h4>
+<p>THIS SITE IS PROVIDED BY our web site ON AN "AS IS" AND "AS AVAILABLE" BASIS. our web site MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THIS SITE OR THE INFORMATION, CONTENT, MATERIALS, OR PRODUCTS INCLUED ON THIS SITE. YOU EXPRESSLY AGREE THAT YOUR USE OF THIS SITE IS AT YOUR SOLE RISK.</p>
+<p>TO THE FULL EXTENT PERMISSIBLE BY APPLICABLE LAW, our web site DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. our web site DOES NOT WARRANT THAT THE SITE, ITS SERVERS, OR EMAIL SENT FROM our web site ARE FREE OF VIRUS OR OTHER HARMFUL COMPONENTS. our web site WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THIS SITE, INCLUDING, BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, PUNITIVE AND CONSEQUENTIAL DAMAGES.</p>
+</div>
+</div>
+<style><!--
+.Privacy_build div.qnans {
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+
+.Privacy_build #help-page #help-content #help_faq div.qnans h4.qn {
+    color: #444;
+    padding: 0;
+    font-size: 2.1em;
+    font-weight: 300;
+}
+
+.Privacy_build div.qnans div.ans {
+    margin: 10px 0 20px 0;
+    color: #767676;
+    line-height: 2;
+    padding-left: 3px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.Privacy_build div.qnans div.ans ul
+{
+padding-left: 19px;
+
+}
+
+.Privacy_build div.qnans div.ans ol {
+    padding-left: 19px;
+}
+
+
+.Privacy_build div.qnans div.ans ul {
+    list-style: disc;
+}
+
+.Privacy_build a {
+    color: #428bca;
+    text-decoration: none;
+}
+--></style></div>
+                
+              </div>
+            
+          </div>
+        
+      
+    
+    </div>
+
+  
+
+
+      </div>
+
+      <!-- CONFIG TO ADD JS_FEATURES -->
+      
+      
+        
+
+
+
+
+        
+      
+      <!-- END -->
+      <div id="ft" class='clearfix'>
+  <div id="ft-wrap">
+    
+      
+        
+        <div class=" row">
+            
+              
+              <div class=" col-md-12 col-sm-12 col-xs-12">
+                
+                  <div class="html-widget footer _widget clearfix"><div class="row">
+<div class="fo1 clearfix">
+<div class="col-sm-12 col-xs-12">
+<ul class="social-link">
+<li><a href="https://www.facebook.com/BuildaBazaar">&nbsp;<span class="fa fa-facebook">&nbsp;</span></a></li>
+<li><a href="https://twitter.com/buildabazaar">&nbsp;<span class="fa fa-twitter">&nbsp;</span></a></li>
+<li><a href="https://www.linkedin.com/company/buildabazaar-com">&nbsp;<span class="fa fa-linkedin">&nbsp;</span></a></li>
+<li><a href="https://www.pinterest.com/buildabazaar/">&nbsp;<span class="fa fa-pinterest">&nbsp;</span></a></li>
+<li><a href="https://www.youtube.com/BuildaBazaar">&nbsp;<span class="fa fa-youtube">&nbsp;</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fo2 clearfix">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<ul class="footer-menu">
+<li><a href="contact_us.html">Help &amp; Contact</a></li>
+<li><a href="terms_conditions.html">Terms Conditions</a></li>
+<li><a href="privacy_policy.html">Privacy Policy</a></li>
+<li><a href="/my-account">My Account</a></li>
+<li><a href="wish-list.html">Wish-list</a></li>
+</ul>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12"><address class="copy">Copyright &copy; 2019 <a href="https://www.infibeam.com/">Infibeam.com</a>. All rights reserved.</address></div>
+</div>
+<style><!--
+ .social-link { display: table; margin: 0 auto; } .social-link li { float: left; margin: 0 7.5px; display: inline; } .social-link a { border: 1px solid #000; background-color: #000; color: #a7a7a7; display: block; font-size: 14px; height: 34px; line-height: 30px; padding-left: 2px; text-align: center; width: 34px; border-radius: 50%; } .fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .social-link a:hover { background-color: #747474; border-color: #747474; color: #fff; }
+ .footer-menu {
+ padding-top: 27px;
+ padding-bottom: 8px;
+ text-align: center;
+ }
+ .footer-menu li {
+ display: inline-block;
+ margin: 0 13px 10px;
+ }
+ .footer-menu li a {
+ color: #6b6b6b;
+ }
+ .footer-menu li a:hover, .footer-menu li a:focus {
+ color: #fff;
+ }
+ address.copy 
+ {
+ margin-bottom: 0;
+ font-style: normal;
+ line-height: 1.7;
+ text-align: center;
+ }
+ --></style>
+<!-- WhatsHelp.io widget -->
+<p>
+<script type="text/javascript">// <![CDATA[
+  (function () {
+   var options = {
+    facebook: "384446005350048", // Facebook page ID
+    whatsapp: "+919909039826", // WhatsApp number
+    email: "cs@buildabazaar.com", // Email
+    call: "079-67772245", // Call phone number
+    company_logo_url: "//storage.whatshelp.io/widget/3e/3e95/3e9510ba2a09be2c73f4a41ee5ee0391/26219573_384510888676893_5671902284092564299_n.png", // URL of company logo (png, jpg, gif)
+    greeting_message: "Hello, how may I help you? I am Your Store Creation Assistant.", // Text of greeting message
+    call_to_action: "Message us", // Call to action
+    button_color: "#FF6550", // Color of button
+    position: "right", // Position may be 'right' or 'left'
+    order: "facebook,call,email,whatsapp" // Order of buttons
+   };
+   var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+   var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+   s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+   var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+  // ]]></script>
+</p>
+<!-- /WhatsHelp.io widget --></div>
+                
+              </div>
+            
+          </div>
+        
+      
+    
+    <div class=" row" id="ft-powerby"><div class="text-right col-md-12 col-sm-12"><span>Powered by </span><a href='http://www.infibeam.com' target='_blank'>infibeam</a></div></div>
+  </div>
+</div>
+
+    </div>
+    
+  
+    
+    <script>bjQuery(document).trigger('page_end')</script>
+  </body>
+</html>
+

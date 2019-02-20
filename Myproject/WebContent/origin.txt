@@ -1,0 +1,552 @@
+Uri: http://timetriangle.buildabazaar.ooo/
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\index.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/about_us
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\about_us.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/contact_us
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\contact_us.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/search?q=
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/analog/jbl-ear-plug/p-6380371-87567672857-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\analog\jbl-ear-plug\p-6380371-87567672857-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/digital/fastrack-3801220pp01-black-black-digital-watch/p-6380371-48098585477-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\digital\fastrack-3801220pp01-black-black-digital-watch\p-6380371-48098585477-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/chronograph/lee-cooper-lc-090710-black-golden-chronograph-watch/p-6380371-88204130126-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\chronograph\lee-cooper-lc-090710-black-golden-chronograph-watch\p-6380371-88204130126-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/digital/casio-black-brown-digital-watch/p-6380371-73857420956-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\digital\casio-black-brown-digital-watch\p-6380371-73857420956-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/analog/yepme-white-faux-leather-watch/p-6380371-53848813028-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\analog\yepme-white-faux-leather-watch\p-6380371-53848813028-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/analog/aveiro-rubber-band-analog-watch/p-6380371-67097850482-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\analog\aveiro-rubber-band-analog-watch\p-6380371-67097850482-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/chronograph/maxima-attivo-black-black-chronograph-watch/p-6380371-78283086427-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\chronograph\maxima-attivo-black-black-chronograph-watch\p-6380371-78283086427-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/chronograph/dkny-ny877867-white-tan-chronograph-watch/p-6380371-77727244572-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\chronograph\dkny-ny877867-white-tan-chronograph-watch\p-6380371-77727244572-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/chronograph/lee-cooper-lc-1306123l-grey-grey-chronograph-watch/p-6380371-91146127499-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\chronograph\lee-cooper-lc-1306123l-grey-grey-chronograph-watch\p-6380371-91146127499-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/digital/fluid-dmf-00123-yl01-white-yellow-digital-watch/p-6380371-34548405223-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\digital\fluid-dmf-00123-yl01-white-yellow-digital-watch\p-6380371-34548405223-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/digital/fluid-dmf-00543-bl01-white-blue-digital-watch/p-6380371-10025545115-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\digital\fluid-dmf-00543-bl01-white-blue-digital-watch\p-6380371-10025545115-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/analog/yepme-leatherite-big-analog-watch/p-6380371-31861900806-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\analog\yepme-leatherite-big-analog-watch\p-6380371-31861900806-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/analog/sonata-798412pp01-black-white-analog-watch/p-6380371-50753003906-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\analog\sonata-798412pp01-black-white-analog-watch\p-6380371-50753003906-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/chronograph/yepme-grey-silver-metal-watch/p-6380371-9644498916-cat.html
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\chronograph\yepme-grey-silver-metal-watch\p-6380371-9644498916-cat.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/terms_conditions
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\terms_conditions.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/privacy_policy
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\privacy_policy.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/wish-list
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\wish-list.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/my_save_list/shopping_cart
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\my_save_list\shopping_cart.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/login
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\login.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/help
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\help.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=2&q=
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-analog
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-analog.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/forum/men/
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\forum\men\index.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-digital
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-digital.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-chronograph
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-chronograph.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-analog
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-analog.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/forum/women/
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\forum\women\index.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-chronograph
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-chronograph.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-digital
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-digital.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/images/icon/co_popup_border.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\icon\co_popup_border.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/shipping_options
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\shipping_options.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/images/icon/ajax-loader.gif
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\icon\ajax-loader.gif
+Content Type: image/gif
+
+Uri: http://timetriangle.buildabazaar.ooo/images/icon/infibeam-logo.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\icon\infibeam-logo.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/images/auth/facebook_long.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\auth\facebook_long.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/images/auth/twitter_long.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\auth\twitter_long.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/images/auth/google_oauth2_long.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\auth\google_oauth2_long.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/images/auth/infibeam_long.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\auth\infibeam_long.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/images/auth/linkedin_long.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\auth\linkedin_long.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/images/auth/live_in_style_long.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\auth\live_in_style_long.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/images/auth/cas_long.png
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\images\auth\cas_long.png
+Content Type: image/png
+
+Uri: http://timetriangle.buildabazaar.ooo/password_resets/new
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\password_resets\new.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=2
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-4.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-5.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-analog/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-analog\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-chronograph/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-chronograph\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-digital/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-digital\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-analog/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-analog\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-chronograph/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-chronograph\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-digital/search
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-digital\search.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=1&q=
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-6.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=2&sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-7.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=2&sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-8.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=2&sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-9.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-analog?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-analog-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-analog?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-analog-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-analog?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-analog-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/forum/men
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\forum\men.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-digital?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-digital-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-digital?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-digital-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-digital?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-digital-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-chronograph?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-chronograph-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-chronograph?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-chronograph-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-chronograph?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-chronograph-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-analog?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-analog-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-analog?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-analog-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-analog?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-analog-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/forum/women
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\forum\women.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-chronograph?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-chronograph-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-chronograph?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-chronograph-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-chronograph?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-chronograph-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-digital?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-digital-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-digital?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-digital-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-digital?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-digital-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=1
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-10.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-analog/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-analog\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-analog/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-analog\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-analog/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-analog\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-chronograph/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-chronograph\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-chronograph/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-chronograph\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-chronograph/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-chronograph\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-digital/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-digital\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-digital/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-digital\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/men-watches-digital/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\men-watches-digital\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-analog/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-analog\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-analog/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-analog\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-analog/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-analog\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-chronograph/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-chronograph\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-chronograph/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-chronograph\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-chronograph/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-chronograph\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-digital/search?sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-digital\search-1.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-digital/search?sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-digital\search-2.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/women-watches-digital/search?sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\women-watches-digital\search-3.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=1&sort_type=relevance
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-11.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=1&sort_type=price_in_asc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-12.html
+Content Type: text/html
+
+Uri: http://timetriangle.buildabazaar.ooo/home/search?page=1&sort_type=price_in_desc
+File Name: C:\Users\Swank Innovation\Desktop\New folder\timetriangle.buildabazaar.ooo\home\search-13.html
+Content Type: text/html
+
